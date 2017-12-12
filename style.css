@@ -259,7 +259,7 @@ ul#nav {
 
 .mainmenu ul.nav li a:before,
 .mainmenu ul.nav li.active a:before {
-    background: #fff none repeat scroll 0 0;
+    background: #fff2f233  none repeat scroll 0 0;
     content: "";
     height: 2px;
     left: 50%;
@@ -319,8 +319,8 @@ ul#nav {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: rgba(0, 0, 0, .4);
-    color: #3498db;
+    background-color: rgba(0, 0, 0, 0);
+    color: #92a0aa;
 }
 
 .logo,

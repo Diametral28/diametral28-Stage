@@ -97,9 +97,15 @@
     });
 
     // 10.0 Menu Close Button
-    $('.menuCloseBtn').on('click', function(){
+    function openMenu(){
         $(this).toggleClass('Cross');
         body.toggleClass('menuEffect');
+    }
+    if( windowWidth > 768 ){
+        openMenu();
+    }
+    $('.menuCloseBtn').on('click', function(){
+        openMenu();
     });
     $('.navbar-toggle').on('click', function(){
         body.toggleClass('menuEffect');
