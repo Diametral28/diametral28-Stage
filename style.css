@@ -58,6 +58,22 @@ Base CSS or Common CSS are in reset.css
     transition: 500ms;
 }
 
+@font-face {
+  font-family: Oswald-Regular; 
+  src: url(css/fuentes/Oswald-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: AvenirNextCondensed-Bold; 
+  src: url(css/fuentes/AvenirNextCondensed-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: AvenirNextCondensed-Regular; 
+  src: url(css/fuentes/AvenirNextCondensed-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: TwCenClassMTStd-Regular; 
+  src: url(css/fuentes/TwCenClassMTStd-Regular.otf) format('truetype');
+}
 
 /* ============================================
 1.  ColorDemo start
@@ -239,7 +255,7 @@ ul#nav {
 .mainmenu ul.nav li a {
     color: #fff;
     display: block;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 65px;
     padding: 15px 30px;
@@ -248,7 +264,7 @@ ul#nav {
     transition: .36s;
     opacity: 1;
     filter: alpha(opacity=100);
-    font-family: "Ubuntu", sans-serif;
+    font-family: AvenirNextCondensed-Bold;
 }
 
 .menuEffect .mainmenu ul.nav li a {
