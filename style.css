@@ -74,7 +74,21 @@ Base CSS or Common CSS are in reset.css
   font-family: TwCenClassMTStd-Regular; 
   src: url(css/fuentes/TwCenClassMTStd-Regular.otf) format('truetype');
 }
-
+/* ============================================
+0.    Social Media
+=============================================== */
+.social-link-area img{
+    height: 50px;
+}
+.social-link-area ul{
+    padding: 0;margin: 0;list-style: none;color: #fff; font-family: AvenirNextCondensed-Bold;
+}
+.social-link-area ul li{
+    display: inline-block;margin: 0px 16px;
+}
+.social-link-area ul li a{
+    color: #fff; font-size:18px;
+}
 /* ============================================
 1.  ColorDemo start
 =============================================== */
