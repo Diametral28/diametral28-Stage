@@ -78,7 +78,8 @@ Base CSS or Common CSS are in reset.css
 0.    Social Media
 =============================================== */
 .social-link-area img{
-    height: 50px;
+    height: 50px; 
+    width: 50PX;
 }
 .social-link-area ul{
     padding: 0;margin: 0;list-style: none;color: #fff; font-family: AvenirNextCondensed-Bold;
@@ -88,6 +89,10 @@ Base CSS or Common CSS are in reset.css
 }
 .social-link-area ul li a{
     color: #fff; font-size:18px;
+}
+#img-log{
+    height: 70px;
+    width: auto;
 }
 /* ============================================
 1.  ColorDemo start
