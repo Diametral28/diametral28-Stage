@@ -1,0 +1,48 @@
+/* Tamaño s */
+@media screen and (max-width: 767px){
+    #logo-menu{
+        position: absolute;top: 20%;left: 50%;z-index: 999;text-align: left;
+   }
+   #log-strava{
+        position: absolute;top: 90%;left: 10%;z-index: 999;text-align: left;
+   }
+}
+/* Tamaño m */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #logo-menu{
+        position: absolute;top: 5%;left: 5%;z-index: 999;text-align: left;
+   }
+    #log-strava{
+        position: absolute;top: 90%;left: 30%;z-index: 999;text-align: left;
+    }
+}
+    
+/* Tamaño l */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    #logo-menu{
+        position: absolute;top: 5%;left: 5%;z-index: 999;text-align: left;
+   }
+    #log-strava{
+        position: absolute;top: 81%;right: 130px;z-index: 999;text-align: left;
+    }
+}
+/* Tamaño xl */
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+    #logo-menu{
+        position: absolute;top: 5%;left: 5%;z-index: 999;text-align: left;
+   }
+   #log-strava{
+        position: absolute;top: 81%;right: 130px;z-index: 999;text-align: left;
+    }
+}
+
+/* Tamaño xxl */
+@media screen and (min-width: 1920px){
+    #logo-menu{
+        position: absolute;top: 5%;left: 5%;z-index: 999;text-align: left;
+   }
+    #log-strava{
+        position: absolute;top: 81%;right: 130px;z-index: 999;text-align: left;
+    }
+  
+}
