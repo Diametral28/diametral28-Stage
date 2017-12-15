@@ -78,14 +78,14 @@ Base CSS or Common CSS are in reset.css
 0.    Social Media
 =============================================== */
 .social-link-area img{
-    height: 50px; 
-    width: 50PX;
+    height: 40px; 
+    width: 40PX;
 }
 .social-link-area ul{
     padding: 0;margin: 0;list-style: none;color: #fff; font-family: AvenirNextCondensed-Bold;
 }
 .social-link-area ul li{
-    display: inline-block;margin: 0px 16px;
+    display: inline-block;margin: 0px 15px;
 }
 .social-link-area ul li a{
     color: #fff; font-size:18px;
@@ -93,6 +93,12 @@ Base CSS or Common CSS are in reset.css
 #img-log{
     height: 70px;
     width: auto;
+}
+/* ============================================
+  Servicios
+=============================================== */
+#div-servicios{
+    margin: 15px 0px;
 }
 /* ============================================
 1.  ColorDemo start
@@ -818,7 +824,7 @@ form.search-box {
     font-family: "Ubuntu", sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    margin: 0 4px;
+    margin: 5px 4px;
     padding: 10px 30px;
     -webkit-transition: all 600ms ease 0s;
     transition: all 600ms ease 0s;
