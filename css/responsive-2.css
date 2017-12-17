@@ -1,10 +1,21 @@
 /* Tamaño s */
 @media screen and (max-width: 767px){
     #logo-menu{
-        position: absolute;top: 20%;left: 50%;z-index: 999;text-align: left;
+        position: absolute;top: 20%;left: 50%;z-index: 999;text-align: left; 
    }
    #log-strava{
-        position: absolute;top: 90%;left: 10%;z-index: 999;text-align: left;
+        position: absolute;top: 90%;left: 5%;z-index: 999;text-align: left;
+   }
+   #log-strava img{
+        height: 30px;
+        width: 30px;
+   }
+   #log-spoty{
+        position: absolute;top: 90%;left: 15%;z-index: 999;text-align: left;
+    }
+    #log-spoty img{
+        height: 30px;
+        width: 30px;
    }
 }
 /* Tamaño m */
@@ -14,6 +25,9 @@
    }
     #log-strava{
         position: absolute;top: 90%;left: 30%;z-index: 999;text-align: left;
+    }
+    #log-spoty{
+        position: absolute;top: 90%;left: 40%;z-index: 999;text-align: left;
     }
 }
     
