@@ -180,4 +180,14 @@
         });
     });
     
+    // Blog 28
+    var blog = document.getElementById("blog28");
+    var blogm = document.getElementById("blog-men");
+    if( windowWidth < 768 ){ 
+       blog.style.display = "none";
+       blogm.style.display = "block";
+    }else{
+        blog.style.display = "block";
+        blogm.style.display = "none";
+    }
 })(jQuery);

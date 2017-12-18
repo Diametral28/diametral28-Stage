@@ -1,7 +1,11 @@
 /* Tamaño s */
 @media screen and (max-width: 767px){
-    #logo-menu{
+   #logo-menu{
         position: absolute;top: 20%;left: 50%;z-index: 999;text-align: left; 
+   }
+   #logo-menu img{
+        height: 50px;
+        width: auto;
    }
    #log-strava{
         position: absolute;top: 90%;left: 5%;z-index: 999;text-align: left;
@@ -17,6 +21,21 @@
         height: 30px;
         width: 30px;
    }
+   #redes{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    z-index: 999;
+    text-align: right;
+   }
+   #redes a{
+    color: #fff;
+    font-size: 10px;
+   }
+   #redes ul li{
+    display: inline-block;
+    margin: 0px 10px;
+   }
 }
 /* Tamaño m */
 @media screen and (min-width: 768px) and (max-width: 991px){
@@ -29,6 +48,9 @@
     #log-spoty{
         position: absolute;top: 90%;left: 40%;z-index: 999;text-align: left;
     }
+    #redes{
+      position: absolute;top: 60%;right: 0;z-index: 999;text-align: right;-webkit-transform: rotate(270deg);transform: rotate(270deg);
+    }
 }
     
 /* Tamaño l */
@@ -39,6 +61,9 @@
     #log-strava{
         position: absolute;top: 81%;right: 130px;z-index: 999;text-align: left;
     }
+    #redes{
+      position: absolute;top: 60%;right: 0;z-index: 999;text-align: right;-webkit-transform: rotate(270deg);transform: rotate(270deg);
+    }
 }
 /* Tamaño xl */
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
@@ -47,6 +72,9 @@
    }
    #log-strava{
         position: absolute;top: 81%;right: 130px;z-index: 999;text-align: left;
+    }
+    #redes{
+      position: absolute;top: 60%;right: 0;z-index: 999;text-align: right;-webkit-transform: rotate(270deg);transform: rotate(270deg);
     }
 }
 
@@ -57,6 +85,9 @@
    }
     #log-strava{
         position: absolute;top: 81%;right: 130px;z-index: 999;text-align: left;
+    }
+    #redes{
+      position: absolute;top: 60%;right: 0;z-index: 999;text-align: right;-webkit-transform: rotate(270deg);transform: rotate(270deg);
     }
   
 }
