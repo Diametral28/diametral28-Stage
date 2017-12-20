@@ -190,4 +190,10 @@
         blog.style.display = "block";
         blogm.style.display = "none";
     }
+    // Servicios
+    $( "#div-servicios" ).hover(  function() {
+             $('#h2pru').animateCss('bounce');
+  }
+     
+    );
 })(jQuery);

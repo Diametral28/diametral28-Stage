@@ -98,24 +98,117 @@ Base CSS or Common CSS are in reset.css
 /* ============================================
   Servicios
 =============================================== */
+
 #div-servicios{
-    margin: 15px 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow: hidden;
 }
 
-#img-contenedor img {
--webkit-transition:all .9s ease; /* Safari y Chrome */
--moz-transition:all .9s ease; /* Firefox */
--o-transition:all .9s ease; /* IE 9 */
--ms-transition:all .9s ease; /* Opera */
+.img-contenedor img {
+
+-webkit-transition: all 2s ease-out;
+-moz-transition: all 2s ease-out;
+-o-transition: all 2s ease-out;
+-ms-transition: all 2s ease-out;
+transition: all 2s ease-out;
 width:100%;
 }
-#img-contenedor:hover img {
--webkit-transform:scale(1.25);
--moz-transform:scale(1.25);
--ms-transform:scale(1.25);
--o-transform:scale(1.25);
-transform:scale(1.25);
+.img-contenedor:hover img {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
 }
+.serv-over{
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+-webkit-transition-property: opacity;
+-moz-transition-property: opacity;
+-o-transition-property: opacity;
+transition-property: opacity;
+-webkit-transition-duration: 0.2s;
+-moz-transition-duration: 0.2s;
+-o-transition-duration: 0.2s;
+transition-duration: 0.2s;
+-webkit-transition-timing-function: linear;
+-moz-transition-timing-function: linear;
+-o-transition-timing-function: linear;
+transition-timing-function: linear;
+}
+.serv-over:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.7;
+}
+.serv-info{
+    position: absolute;
+    left: 0;
+    bottom: 80%;
+    height: 40px;
+    margin-bottom: -25px;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.serv-info h1,h2,h3{
+    color: #FFF;
+    -webkit-animation: fadeInDown 1s;
+    animation: fadeInDown 1s;
+}
+.option-serv {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+}
+/*.serv-info ul li{
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@-moz-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}*/
 /* ============================================
 1.  ColorDemo start
 =============================================== */
