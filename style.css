@@ -1943,7 +1943,7 @@ sonarEffect
 ==========================*/
 
 .contact-form input[type="text"] {
-    border: 1px solid #c2c2c2;
+    /*border: 1px solid #c2c2c2;
     border-radius: 6px;
     color: #6f6f6f;
     font-family: "Ubuntu", sans-serif;
@@ -1951,7 +1951,19 @@ sonarEffect
     height: 60px;
     margin-bottom: 30px;
     padding-left: 20px;
-    width: 100%;
+    width: 100%;*/
+
+    background: none;
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #555;
+    color: #444;
+    padding: 10px;
+    width: 100%
 }
 
 .contact-form input:focus,
@@ -1960,7 +1972,7 @@ sonarEffect
 }
 
 .contact-form textarea#message {
-    border: 1px solid #c2c2c2;
+    /*border: 1px solid #c2c2c2;
     height: 260px;
     margin-bottom: 30px;
     padding-left: 20px;
@@ -1969,12 +1981,27 @@ sonarEffect
     font-size: 14px;
     color: #6f6f6f;
     border-radius: 5px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;*/
+
+    background: none;
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #555;
+    color: #444;
+    height: 260px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    width: 100%;
+    padding-top: 15px;
 }
 
 .contact-form input[type="submit"],
 .submit-btn > a {
-    background: transparent none repeat scroll 0 0;
+    /*background: transparent none repeat scroll 0 0;
     border: 1px solid #c2c2c2;
     border-radius: 30px;
     color: #6f6f6f;
@@ -1982,7 +2009,18 @@ sonarEffect
     font-size: 14px;
     line-height: 55px;
     margin-bottom: 50px;
-    padding: 0 37px;
+    padding: 0 37px;*/
+        border: 1px solid #111;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
 }
 
 .contact-form input[type="submit"]:hover {
@@ -3559,4 +3597,584 @@ div#preloader {
 .CCdarkblue #pricing-area .col-md-3:last-child .plan .price:before,
 .CCdarkblue .plan:hover .price:before {
     border-bottom: 7px solid #2c3e50;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?exl2wq');
+  src:  url('fonts/icomoon.eot?exl2wq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?exl2wq') format('truetype'),
+    url('fonts/icomoon.woff?exl2wq') format('woff'),
+    url('fonts/icomoon.svg?exl2wq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 80px;
+  color: #fff;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-m-BN:before {
+  content: "\e902";
+}
+.icon-grupo-industrialdosmil-BN:before {
+  content: "\e903";
+}
+.icon-grupo-pailero-BN:before {
+  content: "\e904";
+}
+.icon-idento-BN:before {
+  content: "\e905";
+}
+.icon-imagen-publica-BN:before {
+  content: "\e906";
+}
+.icon-kia-BN:before {
+  content: "\e907";
+}
+.icon-museo-del-automovil-BN:before {
+  content: "\e908";
+}
+.icon-nissan-BN:before {
+  content: "\e909";
+}
+.icon-opticas-union-BN .path1:before {
+  content: "\e90a";
+  color: rgb(26, 24, 24);
+}
+.icon-opticas-union-BN .path2:before {
+  content: "\e90b";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+}
+.icon-opticas-union-BN .path3:before {
+  content: "\e90c";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+}
+.icon-opticas-union-BN .path4:before {
+  content: "\e90d";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+}
+.icon-opticas-union-BN .path5:before {
+  content: "\e90e";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+}
+.icon-opticas-union-BN .path6:before {
+  content: "\e90f";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+}
+.icon-opticas-union-BN .path7:before {
+  content: "\e910";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+}
+.icon-opticas-union-BN .path8:before {
+  content: "\e911";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path9:before {
+  content: "\e912";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path10:before {
+  content: "\e913";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path11:before {
+  content: "\e914";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path12:before {
+  content: "\e915";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path13:before {
+  content: "\e916";
+  margin-left: -2.669921875em;
+  color: rgb(125, 127, 130);
+  opacity: 0.0030;
+}
+.icon-opticas-union-BN .path14:before {
+  content: "\e917";
+  margin-left: -2.669921875em;
+  color: rgb(123, 125, 127);
+  opacity: 0.0045;
+}
+.icon-opticas-union-BN .path15:before {
+  content: "\e918";
+  margin-left: -2.669921875em;
+  color: rgb(121, 123, 125);
+  opacity: 0.0075;
+}
+.icon-opticas-union-BN .path16:before {
+  content: "\e919";
+  margin-left: -2.669921875em;
+  color: rgb(119, 120, 123);
+  opacity: 0.0090;
+}
+.icon-opticas-union-BN .path17:before {
+  content: "\e91a";
+  margin-left: -2.669921875em;
+  color: rgb(117, 118, 121);
+  opacity: 0.0120;
+}
+.icon-opticas-union-BN .path18:before {
+  content: "\e91b";
+  margin-left: -2.669921875em;
+  color: rgb(116, 116, 118);
+  opacity: 0.0135;
+}
+.icon-opticas-union-BN .path19:before {
+  content: "\e91c";
+  margin-left: -2.669921875em;
+  color: rgb(114, 114, 116);
+  opacity: 0.0165;
+}
+.icon-opticas-union-BN .path20:before {
+  content: "\e91d";
+  margin-left: -2.669921875em;
+  color: rgb(112, 112, 114);
+  opacity: 0.0180;
+}
+.icon-opticas-union-BN .path21:before {
+  content: "\e91e";
+  margin-left: -2.669921875em;
+  color: rgb(110, 110, 112);
+  opacity: 0.0210;
+}
+.icon-opticas-union-BN .path22:before {
+  content: "\e91f";
+  margin-left: -2.669921875em;
+  color: rgb(108, 108, 110);
+  opacity: 0.0225;
+}
+.icon-opticas-union-BN .path23:before {
+  content: "\e920";
+  margin-left: -2.669921875em;
+  color: rgb(106, 106, 108);
+  opacity: 0.0255;
+}
+.icon-opticas-union-BN .path24:before {
+  content: "\e921";
+  margin-left: -2.669921875em;
+  color: rgb(104, 104, 106);
+  opacity: 0.0270;
+}
+.icon-opticas-union-BN .path25:before {
+  content: "\e922";
+  margin-left: -2.669921875em;
+  color: rgb(103, 102, 104);
+  opacity: 0.0300;
+}
+.icon-opticas-union-BN .path26:before {
+  content: "\e923";
+  margin-left: -2.669921875em;
+  color: rgb(101, 100, 102);
+  opacity: 0.0315;
+}
+.icon-opticas-union-BN .path27:before {
+  content: "\e924";
+  margin-left: -2.669921875em;
+  color: rgb(99, 98, 100);
+  opacity: 0.0345;
+}
+.icon-opticas-union-BN .path28:before {
+  content: "\e925";
+  margin-left: -2.669921875em;
+  color: rgb(97, 96, 98);
+  opacity: 0.0360;
+}
+.icon-opticas-union-BN .path29:before {
+  content: "\e926";
+  margin-left: -2.669921875em;
+  color: rgb(95, 94, 96);
+  opacity: 0.0390;
+}
+.icon-opticas-union-BN .path30:before {
+  content: "\e927";
+  margin-left: -2.669921875em;
+  color: rgb(94, 92, 94);
+  opacity: 0.0405;
+}
+.icon-opticas-union-BN .path31:before {
+  content: "\e928";
+  margin-left: -2.669921875em;
+  color: rgb(92, 91, 92);
+  opacity: 0.0435;
+}
+.icon-opticas-union-BN .path32:before {
+  content: "\e929";
+  margin-left: -2.669921875em;
+  color: rgb(90, 89, 90);
+  opacity: 0.0450;
+}
+.icon-opticas-union-BN .path33:before {
+  content: "\e92a";
+  margin-left: -2.669921875em;
+  color: rgb(88, 87, 88);
+  opacity: 0.0480;
+}
+.icon-opticas-union-BN .path34:before {
+  content: "\e92b";
+  margin-left: -2.669921875em;
+  color: rgb(87, 85, 86);
+  opacity: 0.0495;
+}
+.icon-opticas-union-BN .path35:before {
+  content: "\e92c";
+  margin-left: -2.669921875em;
+  color: rgb(85, 83, 85);
+  opacity: 0.0525;
+}
+.icon-opticas-union-BN .path36:before {
+  content: "\e92d";
+  margin-left: -2.669921875em;
+  color: rgb(83, 82, 83);
+  opacity: 0.0540;
+}
+.icon-opticas-union-BN .path37:before {
+  content: "\e92e";
+  margin-left: -2.669921875em;
+  color: rgb(82, 80, 81);
+  opacity: 0.0570;
+}
+.icon-opticas-union-BN .path38:before {
+  content: "\e92f";
+  margin-left: -2.669921875em;
+  color: rgb(80, 78, 79);
+  opacity: 0.0585;
+}
+.icon-opticas-union-BN .path39:before {
+  content: "\e930";
+  margin-left: -2.669921875em;
+  color: rgb(78, 76, 77);
+  opacity: 0.0615;
+}
+.icon-opticas-union-BN .path40:before {
+  content: "\e931";
+  margin-left: -2.669921875em;
+  color: rgb(77, 75, 76);
+  opacity: 0.0630;
+}
+.icon-opticas-union-BN .path41:before {
+  content: "\e932";
+  margin-left: -2.669921875em;
+  color: rgb(75, 73, 74);
+  opacity: 0.0660;
+}
+.icon-opticas-union-BN .path42:before {
+  content: "\e933";
+  margin-left: -2.669921875em;
+  color: rgb(73, 71, 72);
+  opacity: 0.0675;
+}
+.icon-opticas-union-BN .path43:before {
+  content: "\e934";
+  margin-left: -2.669921875em;
+  color: rgb(72, 70, 71);
+  opacity: 0.0705;
+}
+.icon-opticas-union-BN .path44:before {
+  content: "\e935";
+  margin-left: -2.669921875em;
+  color: rgb(70, 68, 69);
+  opacity: 0.0720;
+}
+.icon-opticas-union-BN .path45:before {
+  content: "\e936";
+  margin-left: -2.669921875em;
+  color: rgb(69, 67, 67);
+  opacity: 0.0750;
+}
+.icon-opticas-union-BN .path46:before {
+  content: "\e937";
+  margin-left: -2.669921875em;
+  color: rgb(67, 65, 66);
+  opacity: 0.0780;
+}
+.icon-opticas-union-BN .path47:before {
+  content: "\e938";
+  margin-left: -2.669921875em;
+  color: rgb(66, 64, 64);
+  opacity: 0.0795;
+}
+.icon-opticas-union-BN .path48:before {
+  content: "\e939";
+  margin-left: -2.669921875em;
+  color: rgb(64, 62, 63);
+  opacity: 0.0825;
+}
+.icon-opticas-union-BN .path49:before {
+  content: "\e93a";
+  margin-left: -2.669921875em;
+  color: rgb(63, 61, 61);
+  opacity: 0.0840;
+}
+.icon-opticas-union-BN .path50:before {
+  content: "\e93b";
+  margin-left: -2.669921875em;
+  color: rgb(61, 59, 60);
+  opacity: 0.0870;
+}
+.icon-opticas-union-BN .path51:before {
+  content: "\e93c";
+  margin-left: -2.669921875em;
+  color: rgb(60, 58, 58);
+  opacity: 0.0885;
+}
+.icon-opticas-union-BN .path52:before {
+  content: "\e93d";
+  margin-left: -2.669921875em;
+  color: rgb(59, 56, 57);
+  opacity: 0.0915;
+}
+.icon-opticas-union-BN .path53:before {
+  content: "\e93e";
+  margin-left: -2.669921875em;
+  color: rgb(57, 55, 56);
+  opacity: 0.0930;
+}
+.icon-opticas-union-BN .path54:before {
+  content: "\e93f";
+  margin-left: -2.669921875em;
+  color: rgb(56, 54, 54);
+  opacity: 0.0960;
+}
+.icon-opticas-union-BN .path55:before {
+  content: "\e940";
+  margin-left: -2.669921875em;
+  color: rgb(54, 52, 53);
+  opacity: 0.0975;
+}
+.icon-opticas-union-BN .path56:before {
+  content: "\e941";
+  margin-left: -2.669921875em;
+  color: rgb(53, 51, 51);
+  opacity: 0.1005;
+}
+.icon-opticas-union-BN .path57:before {
+  content: "\e942";
+  margin-left: -2.669921875em;
+  color: rgb(52, 49, 50);
+  opacity: 0.1020;
+}
+.icon-opticas-union-BN .path58:before {
+  content: "\e943";
+  margin-left: -2.669921875em;
+  color: rgb(50, 48, 49);
+  opacity: 0.1050;
+}
+.icon-opticas-union-BN .path59:before {
+  content: "\e944";
+  margin-left: -2.669921875em;
+  color: rgb(49, 47, 47);
+  opacity: 0.1065;
+}
+.icon-opticas-union-BN .path60:before {
+  content: "\e945";
+  margin-left: -2.669921875em;
+  color: rgb(48, 46, 46);
+  opacity: 0.1095;
+}
+.icon-opticas-union-BN .path61:before {
+  content: "\e946";
+  margin-left: -2.669921875em;
+  color: rgb(47, 44, 45);
+  opacity: 0.111;
+}
+.icon-opticas-union-BN .path62:before {
+  content: "\e947";
+  margin-left: -2.669921875em;
+  color: rgb(45, 43, 44);
+  opacity: 0.114;
+}
+.icon-opticas-union-BN .path63:before {
+  content: "\e948";
+  margin-left: -2.669921875em;
+  color: rgb(44, 42, 42);
+  opacity: 0.1155;
+}
+.icon-opticas-union-BN .path64:before {
+  content: "\e949";
+  margin-left: -2.669921875em;
+  color: rgb(43, 40, 41);
+  opacity: 0.1185;
+}
+.icon-opticas-union-BN .path65:before {
+  content: "\e94a";
+  margin-left: -2.669921875em;
+  color: rgb(42, 39, 40);
+  opacity: 0.12;
+}
+.icon-opticas-union-BN .path66:before {
+  content: "\e94b";
+  margin-left: -2.669921875em;
+  color: rgb(40, 38, 39);
+  opacity: 0.123;
+}
+.icon-opticas-union-BN .path67:before {
+  content: "\e94c";
+  margin-left: -2.669921875em;
+  color: rgb(39, 37, 37);
+  opacity: 0.1245;
+}
+.icon-opticas-union-BN .path68:before {
+  content: "\e94d";
+  margin-left: -2.669921875em;
+  color: rgb(38, 36, 36);
+  opacity: 0.1275;
+}
+.icon-opticas-union-BN .path69:before {
+  content: "\e94e";
+  margin-left: -2.669921875em;
+  color: rgb(37, 34, 35);
+  opacity: 0.129;
+}
+.icon-opticas-union-BN .path70:before {
+  content: "\e94f";
+  margin-left: -2.669921875em;
+  color: rgb(36, 33, 34);
+  opacity: 0.132;
+}
+.icon-opticas-union-BN .path71:before {
+  content: "\e950";
+  margin-left: -2.669921875em;
+  color: rgb(34, 32, 33);
+  opacity: 0.1335;
+}
+.icon-opticas-union-BN .path72:before {
+  content: "\e951";
+  margin-left: -2.669921875em;
+  color: rgb(33, 31, 31);
+  opacity: 0.1365;
+}
+.icon-opticas-union-BN .path73:before {
+  content: "\e952";
+  margin-left: -2.669921875em;
+  color: rgb(32, 30, 30);
+  opacity: 0.138;
+}
+.icon-opticas-union-BN .path74:before {
+  content: "\e953";
+  margin-left: -2.669921875em;
+  color: rgb(31, 28, 29);
+  opacity: 0.141;
+}
+.icon-opticas-union-BN .path75:before {
+  content: "\e954";
+  margin-left: -2.669921875em;
+  color: rgb(30, 27, 28);
+  opacity: 0.1425;
+}
+.icon-opticas-union-BN .path76:before {
+  content: "\e955";
+  margin-left: -2.669921875em;
+  color: rgb(29, 26, 27);
+  opacity: 0.1455;
+}
+.icon-opticas-union-BN .path77:before {
+  content: "\e956";
+  margin-left: -2.669921875em;
+  color: rgb(27, 25, 25);
+  opacity: 0.147;
+}
+.icon-opticas-union-BN .path78:before {
+  content: "\e957";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+  opacity: 0.15;
+}
+.icon-opticas-union-BN .path79:before {
+  content: "\e958";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+}
+.icon-opticas-union-BN .path80:before {
+  content: "\e959";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path81:before {
+  content: "\e95a";
+  margin-left: -2.669921875em;
+  color: rgb(109, 111, 114);
+}
+.icon-opticas-union-BN .path82:before {
+  content: "\e95b";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path83:before {
+  content: "\e95c";
+  margin-left: -2.669921875em;
+  color: rgb(0, 81, 111);
+}
+.icon-opticas-union-BN .path84:before {
+  content: "\e95d";
+  margin-left: -2.669921875em;
+  color: rgb(0, 81, 111);
+}
+.icon-opticas-union-BN .path85:before {
+  content: "\e95e";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path86:before {
+  content: "\e95f";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+}
+.icon-opticas-union-BN .path87:before {
+  content: "\e960";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path88:before {
+  content: "\e961";
+  margin-left: -2.669921875em;
+  color: rgb(109, 111, 114);
+}
+.icon-opticas-union-BN .path89:before {
+  content: "\e962";
+  margin-left: -2.669921875em;
+  color: rgb(70, 71, 73);
+}
+.icon-opticas-union-BN .path90:before {
+  content: "\e963";
+  margin-left: -2.669921875em;
+  color: rgb(26, 24, 24);
+}
+.icon-publicis-BN:before {
+  content: "\e964";
+}
+.icon-renault-BN:before {
+  content: "\e965";
+}
+.icon-vivens-BN:before {
+  content: "\e900";
+}
+.icon-m-BN2:before {
+  content: "\e901";
 }
