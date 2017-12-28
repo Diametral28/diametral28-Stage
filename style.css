@@ -96,6 +96,22 @@ Base CSS or Common CSS are in reset.css
 }
 
 /* ============================================
+  Equipo
+=============================================== */
+#div-equipo{
+    /*padding-right: 0px;
+    padding-left: 0px;   */   
+    
+}
+#team-inner{
+    overflow: hidden;
+}
+#team-over{
+    width: 370px;
+    left: 15px;
+}
+
+/* ============================================
   Servicios
 =============================================== */
 
