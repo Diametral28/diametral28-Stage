@@ -74,6 +74,13 @@ Base CSS or Common CSS are in reset.css
   font-family: TwCenClassMTStd-Regular; 
   src: url(css/fuentes/TwCenClassMTStd-Regular.otf) format('truetype');
 }
+
+/* ============================================
+0.    Social Media
+=============================================== */
+#audio{
+    width: 100%;
+}
 /* ============================================
 0.    Social Media
 =============================================== */
@@ -172,6 +179,9 @@ transition-timing-function: linear;
     width: 100%;
     text-align: center;
     color: #FFF;
+}
+.serv-info ul{
+    list-style: none;
 }
 .serv-info h1,h2,h3{
     color: #FFF;
@@ -1174,6 +1184,11 @@ figcaption.portfolio-overlay p {
     padding-right: 25px;
     vertical-align: middle;
 }
+#purchase-area p {
+    font-size: 15px;
+    color: #fff;
+   
+}
 
 
 /* ================
@@ -1451,9 +1466,9 @@ Start Services CSS
 
 .blog-status-bar {
     background: #3498db none repeat scroll 0 0;
-    border-radius: 25px;
+   /* border-radius: 25px;*/
     color: #fff;
-    margin-left: calc(50% - 156px);
+    margin-left: calc(50% - 175px);
     margin-top: -25px;
     position: absolute;
     line-height: 30px;
@@ -1518,7 +1533,7 @@ Start Services CSS
 .blog-title p i {
     font-size: 16px;
     margin: 0 10px;
-    color: #0085d5;
+    color: #000;
 }
 
 .blog-title .fa-tags {
@@ -1542,12 +1557,17 @@ Start Services CSS
 }
 
 .single-blog .blog_button > a {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 50px;
-    color: #6f6f6f;
-    padding: 8px 20px;
-    font-size: 14px;
+       border: 1px solid #111;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    
 }
 
 .single-blog:hover .blog_button > a {

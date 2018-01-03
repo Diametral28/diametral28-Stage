@@ -196,4 +196,16 @@
   }
      
     );
+
+    $('#videoVivens').on('click',function (event) {
+        console.log("play");
+        var video = $("#audio");
+        videoPlay(video);
+    });
+
+    function videoPlay(video){
+        document.getElementById('audio').play();
+        //video.play();
+    }
+
 })(jQuery);
