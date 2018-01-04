@@ -29,8 +29,8 @@ body {
 }
 
 body {
-    font-family: 'montserratlight';
-    font-size: 13px;
+    font-family: 'AvenirNextCondensed-Regular';
+    font-size: 17px;
     letter-spacing: 1px;
     line-height: 24px;
 }
@@ -326,13 +326,13 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Oswald-Regular";
 }
 
 .section_title_white h2 {
     color: #fff;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 30px;
+    font-family: "Oswald-Regular";
+    font-size: 35px;
     letter-spacing: 2px;
     padding-bottom: 30px;
     position: relative;
@@ -345,8 +345,8 @@ h6 {
 
 .section_title_black h2 {
     color: #2c3e50 !important;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 30px;
+    font-family: "Oswald-Regular";
+    font-size: 35px;
     font-weight: 500;
     letter-spacing: 2px;
     padding-bottom: 30px;
@@ -363,7 +363,7 @@ h6 {
 .section_title_white h2:before {
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-top: 10px solid #0085d5;
+    /*border-top: 10px solid #0085d5;*/
     bottom: 0;
     content: "";
     height: 0;
@@ -379,14 +379,13 @@ h6 {
 
 .section_title_black h2:after,
 .section_title_white h2:after {
-    border-bottom: 1px solid #999999;
-    border-top: 1px solid #999999;
-    bottom: 5px;
-    content: "";
-    height: 3px;
-    left: calc(50% - 35px);
+    background-color: rgba(0,0,0,0.4);
+    content: '';
+    height: 2px;
+    width: 90px;
     position: absolute;
-    width: 70px;
+    left: calc(50% - 45px);
+    bottom: 8px;
 }
 
 .section_title_white h2:after {

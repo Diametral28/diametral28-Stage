@@ -122,6 +122,10 @@ Base CSS or Common CSS are in reset.css
   Servicios
 =============================================== */
 
+.titulo-pad{
+    padding-bottom: 40px;
+}
+
 #div-servicios{
     padding-right: 0px;
     padding-left: 0px;
@@ -787,7 +791,7 @@ form.search-box {
     letter-spacing: 2px;
     line-height: 20px;
     margin-bottom: 25px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Oswald-Regular";
 }
 
 .about-content h2 span {
@@ -2120,7 +2124,7 @@ sonarEffect
 ===================== */
 
 #footer_area {
-    background: #001d27;
+    background: #000;
 }
 
 .footer-content {
@@ -2229,7 +2233,7 @@ sonarEffect
 }
 
 .footer-bottom.text-center > p {
-    background: #002430 none repeat scroll 0 0;
+    background: #232424 none repeat scroll 0 0;
     color: #ccc;
     margin: 0;
     padding: 28px 0;
