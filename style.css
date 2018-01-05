@@ -1587,7 +1587,7 @@ Start Services CSS
 ===============================================*/
 
 #amazing-facts-area {
-    background: url(images/parallax/logos-clientes.jpg) no-repeat fixed center center / cover;
+    background: url(images/parallax/negro.jpg) no-repeat fixed center center / cover;
     margin-top: 90px;
 }
 
@@ -2252,7 +2252,9 @@ sonarEffect
 /* =======================
 16. Start Single Blog CSS
 ======================== */
-
+#blog-area{
+    background: #f6f6f6;
+}
 .singl-blog-top-bg-area {
     background: url(images/blog-images/blog-breadcumb.jpg) no-repeat center center;
     position: relative;
@@ -2805,8 +2807,8 @@ div#preloader {
 }
 
 .single_contact_info i {
-    border: 1px solid rgba(191, 191, 191, 0.95);
-    border-radius: 50%;
+    /*border: 1px solid rgba(191, 191, 191, 0.95);
+    border-radius: 50%;*/
     color: #6f6f6f;
     font-size: 36px;
     height: 97px;
@@ -2817,8 +2819,8 @@ div#preloader {
 }
 
 .single_contact_info i:hover {
-    background: #3498db;
-    border-color: #3498db;
+    background: #000;
+    border-color: #fff;
     color: #fff;
 }
 
