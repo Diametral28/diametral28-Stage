@@ -2491,8 +2491,8 @@ sonarEffect
 
 div#preloader {
     overflow: hidden;
-    background-color: #fff;
-    background-image: url(images/core-images/loader.gif);
+    background-color: #000;
+    background-image: url(images/core-images/preloader.gif);
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
