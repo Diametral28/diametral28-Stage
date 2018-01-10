@@ -488,7 +488,7 @@ ul#nav {
 .mainmenu ul.nav li a:hover,
 .mainmenu ul.nav li a:active {
     background-color: rgba(0, 0, 0, .4);
-    color: #3498db;
+    color: #6a7a85;
 }
 
 .mainmenu ul.nav li a:focus {
@@ -1575,10 +1575,13 @@ Start Services CSS
 }
 
 .single-blog:hover .blog_button > a {
-    border: 1px solid transparent;
-    background-color: #3498db;
+   /* border: 1px solid transparent;
+    background-color: #fff;
     color: #fff;
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);*/
+    color: #FFF;
+  box-shadow: inset 200px 0px 0px 1px #1E1E1E, inset -200px 0px 0px 1px #1E1E1E;
+  opacity: 1;
 }
 
 
@@ -2492,7 +2495,7 @@ sonarEffect
 div#preloader {
     overflow: hidden;
     background-color: #000;
-    background-image: url(images/core-images/preloader.gif);
+    background-image: url(images/core-images/sqLoading_2.gif);
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
