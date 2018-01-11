@@ -192,53 +192,68 @@ transition-timing-function: linear;
     -webkit-animation: fadeInDown 1s;
     animation: fadeInDown 1s;
 }
+.serv-info a {
+    color: #fff;
+}
 .option-serv {
     -webkit-animation-duration: 3s;
     -webkit-animation-delay: 1s;
     -webkit-animation-iteration-count: 1;
 }
-/*.serv-info ul li{
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  animation-name: slidein;
-  -moz-animation-name: slidein;
-  -webkit-animation-name: slidein;
+
+/* ============================================
+1.  Buttons Effects
+=============================================== */
+#hvr-shutter-in-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  background: #2098D1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  border: 1px solid #111;
+    background-color: #fff;
+    padding: 10px 30px;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
 }
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+#hvr-shutter-in-horizontal:before {
+  content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: #000;
+-webkit-transform: scaleX(1);
+transform: scaleX(1);
+-webkit-transform-origin: 50%;
+transform-origin: 50%;
+-webkit-transition-property: transform;
+transition-property: transform;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
 }
-@-moz-keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+#hvr-shutter-in-horizontal:hover, #hvr-shutter-in-horizontal:focus, #hvr-shutter-in-horizontal:active {
+  color: #000;
 }
-@-webkit-keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}*/
+#hvr-shutter-in-horizontal:hover:before, #hvr-shutter-in-horizontal:focus:before, #hvr-shutter-in-horizontal:active:before {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
 /* ============================================
 1.  ColorDemo start
 =============================================== */
@@ -341,7 +356,12 @@ transition-timing-function: linear;
     filter: alpha(opacity=100);
 }
 
-
+/* ============================================
+2.    Nosotros
+=============================================== */
+#frase{
+    width: 60%;
+}
 /* ============================================
 2.    Start Header CSS
 =============================================== */
@@ -1099,6 +1119,7 @@ figcaption.portfolio-overlay a {
     display: inline-block;
     margin-bottom: 20px;
     margin-right: 5px;
+    color: #fff;
 }
 
 figcaption.portfolio-overlay a i {
@@ -1469,7 +1490,7 @@ Start Services CSS
 }
 
 .blog-status-bar {
-    background: #3498db none repeat scroll 0 0;
+    background: #000 none repeat scroll 0 0;
    /* border-radius: 25px;*/
     color: #fff;
     margin-left: calc(50% - 175px);
@@ -1556,7 +1577,7 @@ Start Services CSS
     bottom: -10px;
     left: calc(50% - 50px);
     margin: 0 auto;
-    position: absolute;
+    /*position: absolute;*/
     z-index: 9;
 }
 

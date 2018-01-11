@@ -188,7 +188,7 @@
                        </div>
 
                        <div class="tp-caption sfl tp-resizeme" data-x="500" data-y="530" data-speed="700" data-start="3400" data-easing="easeInOutQuad" style="max-width: auto; max-height: auto;">
-                           <img src="images/slider/icono_play 50x50px copy.png" alt="" />
+                           <a href="#" id="videoVivens"><img src="images/slider/icono_play 50x50px copy.png" alt="" data-toggle="modal" data-target="#myModal"/></a>
                        </div>
                        
                        <!--
@@ -295,7 +295,7 @@
                     <div class="col-md-12">
                         <!-- <img src="images/purchase-icon.png" alt="Purchase Icon" /> -->
 
-                        <img src="images/parallax/Frase.png" alt="">
+                        <img id="frase" src="images/parallax/Frase.png" alt="">
 
 <!--                         <h2>Frase Dieaetral28 ................</h2> -->
                         <!-- Get a quote Button -->
@@ -336,6 +336,8 @@
                           <li>Conceptos creativos</li>
                           <li>Producto Placement</li>
                           <li>Diseño Gráfico</li>
+                          <li><a class="lightbox" data-gall="gall-work" href="images/servicios/Branding & Marketing Global.jpg">Aeromavédico</a><figcaption><div class="mfp-bottom-bar"><div class="mfp-title"><h3>Project #2</h3><hr><p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p></div><div class="mfp-counter"></div></div></figcaption>
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -496,7 +498,7 @@
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
                       <div class=" floatleft">
-                        <i class="logos-grupo-pail"></i>
+                        <i class="logos-gpm"></i>
                       </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
@@ -609,8 +611,9 @@
                                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                               </div>
-                              <div class="blog_button">
-                                  <a href="single-blog.html" class="wow fadeInUp animated">Read More</a>
+                              <div class="blog_button"> 
+                                  <a href="single-blog.html" id="hvr-shutter-in-horizontal">Leer Mas</a>
+                                  
                               </div>
                           </div>
                           <div class="col-md-6">
@@ -688,7 +691,6 @@
    </section> -->
     <!-- ================= End Testimonials Area ================= -->
 
-
     <!-- ================= Contact Area Start ================= -->
     <section id="contact-area" class="padding-top-100">
         <div class="container no-padding">
@@ -758,7 +760,8 @@
                             </div>
                             <!-- single input -->
                             <div class="col-md-12 col-sm-12 content-center">
-                                <input name="submit" class="button-black" type="submit" value="Enviar Mensaje" />
+                                <!-- <input name="submit" id="hvr-shutter-in-horizontal" type="submit" value="Enviar Mensaje" /> -->
+                                <button type="submit" name="submit" id="hvr-shutter-in-horizontal">Enviar Mensaje</button>
                             </div>
                         </form>
                     </div>
@@ -872,5 +875,30 @@
     <script src="js/mixitup.min.js"></script>
 
 </body>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" onclick="console.log('pause'); document.getElementById('audio').pause();" class="close" data-dismiss="modal" >&times;</button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-sm-12">
+                <audio id="audio" src="images/video/video-intro.mp3" controls="controls" controlsList="nodownload">
+                <p>Tu navegador no implementa el elemento audio.</p>
+                </audio>
+            </div>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div> -->
+    </div>
+
+  </div>
+</div>
 </html>
