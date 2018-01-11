@@ -2059,12 +2059,12 @@ sonarEffect
     display: inline-block;
     padding: 10px 30px;
     font-size: 12px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     color: #fff;
     margin-bottom: 50px;
+    
 }
 
 .contact-form input[type="submit"]:hover {
