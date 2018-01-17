@@ -89,13 +89,14 @@ Base CSS or Common CSS are in reset.css
     width: 40PX;
 }
 .social-link-area ul{
-    padding: 0;margin: 0;list-style: none;color: #fff; font-family: AvenirNextCondensed-Bold;
+    padding: 0;margin: 0;list-style: none;color: #fff; font-family: AvenirNextCondensed-Regular;
 }
 .social-link-area ul li{
     display: inline-block;margin: 0px 15px;
 }
 .social-link-area ul li a{
-    color: #fff; font-size:18px;
+    color: #fff; 
+    font-size:18px;
 }
 #img-log{
     height: 70px;
@@ -177,7 +178,7 @@ transition-timing-function: linear;
 .serv-info{
     position: absolute;
     left: 0;
-    bottom: 80%;
+    top: calc(50% - 35px);
     height: 40px;
     margin-bottom: -25px;
     width: 100%;
@@ -194,6 +195,9 @@ transition-timing-function: linear;
 }
 .serv-info a {
     color: #fff;
+}
+.serv-info a i{
+    padding: 0 20px;
 }
 .option-serv {
     -webkit-animation-duration: 3s;
@@ -447,8 +451,9 @@ ul#nav {
     -webkit-transition: .36s;
     transition: .36s;
     opacity: 1;
-    filter: alpha(opacity=100);
-    font-family: AvenirNextCondensed-Bold;
+    font-family: AvenirNextCondensed-Regular;
+    text-transform: uppercase;
+
 }
 
 .menuEffect .mainmenu ul.nav li a {
