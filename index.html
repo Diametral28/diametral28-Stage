@@ -329,7 +329,7 @@
                     <img src="images/servicios/Branding & Marketing Global.jpg" alt="Portfolio Image" />
                     <div class="serv-over">
                       <div class="serv-info">
-                        <h2 id="h2-pru" class="option-serv animated bounceInRight">BRANDING <br>MARKETING GLOBAL <br> MODELOS COMERCIALES</h2>
+                        <h2 id="h2-pru" class="option-serv animated bounceInRight"><a data-toggle="modal" id="serviciosA" data-target="#servicioModal" data-servicio="branding">BRANDING <br>MARKETING GLOBAL <br> MODELOS COMERCIALES</a></h2>
                         <!-- <ul>
                           <li>Construcción y Posicionamiento de marca</li>
                           <li>Campañas publicitarias ON-OFF line</li>
@@ -348,7 +348,7 @@
                     <img src="images/servicios/Social media.jpg" alt="Portfolio Image" />
                     <div class="serv-over">
                       <div class="serv-info">
-                        <h2><a data-toggle="modal" data-target="#servicioModal">SOCIAL MEDIA</a></h2>
+                        <h2><a data-toggle="modal" id="serviciosA" data-target="#servicioModal" data-servicio="socialMedia">SOCIAL MEDIA</a></h2>
                         <!-- <ul>
                           <li>Campañas digitales</li>
                           <li>Métricas / KPIS</li>
@@ -363,7 +363,7 @@
                     <img src="images/servicios/SEO & Analytics.jpg" alt="Portfolio Image" />
                     <div class="serv-over">
                       <div class="serv-info">
-                        <h2>POSICIONAMIENTO DIGITAL <br> SEO-SEM</h2>
+                        <h2><a data-toggle="modal" id="serviciosA" data-target="#servicioModal" data-servicio="posicionamiento">POSICIONAMIENTO DIGITAL <br> SEO-SEM</a></h2>
                         <!-- <ul>
                           <li>Posicionamiento digital</li>
                           <li>Google Analyticse</li>
@@ -376,7 +376,7 @@
                     <img src="images/servicios/Desarrollo web.jpg" alt="Portfolio Image" />
                     <div class="serv-over">
                       <div class="serv-info">
-                        <h2>DISEÑO & DESARROLLO WEB</h2>
+                        <h2><a data-toggle="modal" id="serviciosA" data-target="#servicioModal" data-servicio="diseno">DISEÑO & DESARROLLO WEB</a></h2>
                         <!-- <ul>
                           <li>Desarrollo y diseño sitios web</li>
                           <li>Desarrollo de apps</li>
@@ -389,7 +389,7 @@
                     <img src="images/servicios/Merchandising.jpg" alt="Portfolio Image" />
                     <div class="serv-over">
                       <div class="serv-info">
-                        <h2>COMUNICACIÓN VISUAL</h2>
+                        <h2><a data-toggle="modal" id="serviciosA" data-target="#servicioModal" data-servicio="comunicacionVisual">COMUNICACIÓN VISUAL</a></h2>
                         <!-- <ul>
                           <li>Exhibiciones punto de venta</li>
                           <li>Merchandising 360</li>
@@ -403,7 +403,7 @@
                     <img src="images/servicios/Contenido.jpg" alt="Portfolio Image" />
                     <div class="serv-over">
                       <div class="serv-info">
-                        <h2>COMUNICACIÓN & CONTENIDO</h2>
+                        <h2><a data-toggle="modal" id="serviciosA" data-target="#servicioModal" data-servicio="comunicacionContenido">COMUNICACIÓN & CONTENIDO</a></h2>
                         <!-- <ul>
                           <li>Desarrollo y gestión de contenido</li>
                           <li>Comunicación corporativva</li>
@@ -415,7 +415,7 @@
                     <img src="images/servicios/Marketing automotriz.jpg" alt="Portfolio Image" />
                     <div class="serv-over">
                       <div class="serv-info">
-                        <h2>MARKETING AUTOMOTRIZ</h2>
+                        <h2><a data-toggle="modal" id="serviciosA" data-target="#servicioModal" data-servicio="marketing">MARKETING AUTOMOTRIZ</a></h2>
                         <!-- <ul>
                           <li>Lanzamiento y campañas nuevos modelos</li>
                           <li>Driving Training</li>
@@ -428,7 +428,7 @@
                     <img src="images/servicios/Photography.jpg" alt="Portfolio Image" />
                     <div class="serv-over">
                       <div class="serv-info">
-                        <h2>PHOTOGRPHY</h2>
+                        <h2><a data-toggle="modal" id="serviciosA" data-target="#servicioModal" data-servicio="photography">PHOTOGRPHY</a></h2>
                         <!-- <ul>
                           <li>Campañas de comunicación y publici</li>
                           <li>Fotografía de producto</li>
@@ -922,20 +922,22 @@
   <div class="modal-dialog">
 
     <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" onclick="console.log('pause'); document.getElementById('audio').pause();" class="close" data-dismiss="modal" >&times;</button>
+    <div class="modal-content" id="modalContent">
+      <div class="modal-header" id="modalHeader">
+        <button type="button" class="close" id="close" data-dismiss="modal" >&times;</button>
         <h4 class="modal-title"></h4>
       </div>
       <div class="modal-body">
         <div class="row">
             <div class="col-sm-12">
-                <img src="images/servicios/Branding & Marketing Global.jpg" alt="">
+                <img id="imgModal" src="images/servicios/Branding & Marketing Global.jpg" alt="">
             </div>
         </div>
       </div>
-      <div class="modal-footer modal-footer-black">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <div class="modal-footer modal-footer-black" id="modalFooter">
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+        <h2 id="tituloServicio"></h2>
+        <p id="contenidoServicio"></p>
       </div>
     </div>
 

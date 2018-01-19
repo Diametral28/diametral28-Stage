@@ -135,7 +135,27 @@ Base CSS or Common CSS are in reset.css
 /* ============================================
   Servicios
 =============================================== */
-
+#modalContent{
+    background: #000;
+    border:none;
+}
+#modalHeader{
+    border-bottom: none;
+}
+#close{
+    font-size: 40px;
+    text-shadow: 0 4px 0 #fff;
+}
+#modalFooter{
+    border-top: none;
+    text-align: left;
+}
+#modalFooter p{
+    color:#fff;
+}
+#imgModal{
+    width: 100%;
+}
 .titulo-pad{
     padding-bottom: 40px;
 }

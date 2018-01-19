@@ -208,4 +208,50 @@
         //video.play();
     }
 
+//----- Servicvios ------
+    $('#serviciosA').on('click', function(){
+        //openMenu();
+        var servicio = $(this).attr("data-servicio");
+        var titulo = $("#tituloServicio");
+        var contenido = $("#contenidoServicio");
+        console.log(servicio);
+        switch(servicio){
+            case "branding": 
+                titulo.text("branding");
+                contenido.text("branding");
+                break;
+            case "socialMedia": 
+                titulo.text("Social Media");
+                contenido.text("Social Media");
+                break;
+            case "posicionamiento": 
+                titulo.text("posicionamiento");
+                contenido.text("posicionamiento");
+                break;
+            case "diseno": 
+                titulo.text("diseno");
+                contenido.text("diseno");
+                break;
+            case "comunicacionVisual": 
+                titulo.text("comunicacionVisual");
+                contenido.text("comunicacionVisual");
+                break;
+            case "comunicacionContenido": 
+                titulo.text("comunicacionContenido");
+                contenido.text("comunicacionContenido");
+                break;
+            case "marketing": 
+                titulo.text("marketing");
+                contenido.text("marketing");
+                break;
+            case "photography": 
+                titulo.text("photography");
+                contenido.text("photography");
+                break;
+
+        }
+        
+
+    });
+
 })(jQuery);
