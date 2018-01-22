@@ -191,11 +191,11 @@
         blogm.style.display = "none";
     }
     // Servicios
-    $( "#div-servicios" ).hover(  function() {
+    /*$( "#div-servicios" ).hover(  function() {
              $('#h2pru').animateCss('bounce');
   }
      
-    );
+    );*/
 
     $('#videoVivens').on('click',function (event) {
         console.log("play");
@@ -209,44 +209,71 @@
     }
 
 //----- Servicvios ------
-    $('#serviciosA').on('click', function(){
+    $('.serviciosA').on('click', function(){
         //openMenu();
         var servicio = $(this).attr("data-servicio");
         var titulo = $("#tituloServicio");
         var contenido = $("#contenidoServicio");
+        var img = $("#imgModal");
+        var src ="";
+
         console.log(servicio);
         switch(servicio){
             case "branding": 
                 titulo.text("branding");
                 contenido.text("branding");
+                src = $("#img-branding").attr("src");
+                img.attr('src', src);
+                console.log(src);
                 break;
             case "socialMedia": 
                 titulo.text("Social Media");
                 contenido.text("Social Media");
+                src = $("#img-social").attr("src");
+                img.attr('src', src);
+                console.log(src);
                 break;
             case "posicionamiento": 
                 titulo.text("posicionamiento");
                 contenido.text("posicionamiento");
+                src = $("#img-posicionamientod").attr("src");
+                img.attr('src', src);
+                console.log(src);
                 break;
             case "diseno": 
                 titulo.text("diseno");
                 contenido.text("diseno");
+                src = $("#img-diseno").attr("src");
+                img.attr('src', src);
+                console.log(src);
                 break;
             case "comunicacionVisual": 
                 titulo.text("comunicacionVisual");
                 contenido.text("comunicacionVisual");
+                src = $("#img-comunicacionv").attr("src");
+                img.attr('src', src);
+                console.log(src);
                 break;
             case "comunicacionContenido": 
                 titulo.text("comunicacionContenido");
                 contenido.text("comunicacionContenido");
+                src = $("#img-comunicacionc").attr("src");
+                img.attr('src', src);
+                console.log(src);
                 break;
             case "marketing": 
                 titulo.text("marketing");
                 contenido.text("marketing");
+                src = $("#img-marketing").attr("src");
+                img.attr('src', src);
+                console.log(src);
                 break;
             case "photography": 
                 titulo.text("photography");
                 contenido.text("photography");
+                src = $("#img-photo").attr("src");
+                img.attr('src', src);
+                console.log(src);
                 break;
 
         }
