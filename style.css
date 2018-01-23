@@ -746,6 +746,14 @@ form.search-box {
     color: #fff !important;
 }
 
+#blog28{
+    position: absolute;
+    top: 1%;
+    right: 8%;
+    z-index: 999;
+    text-align: left; 
+    font-family: AvenirNextCondensed-Regular;
+}
 
 /* =====================
 3. Start Features CSS
