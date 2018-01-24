@@ -220,57 +220,57 @@
         console.log(servicio);
         switch(servicio){
             case "branding": 
-                titulo.text("branding");
-                contenido.text("branding");
+                titulo.text("BRANDING.MARKETING GLOBAL.MODELOS COMERCIALES");
+                contenido.text("Creamos y desarrollamos la identidad de tu marca mediante consultoría e implementación de modelos de negocio integrando las mejores herramientas de comunicación y desarrollo comercial para lograr objetivos específicos. Desarrollamos conceptos creativos alineados a tu estrategia comercial.");
                 src = $("#img-branding").attr("src");
                 img.attr('src', src);
                 console.log(src);
                 break;
             case "socialMedia": 
-                titulo.text("Social Media");
-                contenido.text("Social Media");
+                titulo.text("SOCIAL MEDIA");
+                contenido.text("STe conectamos al mundo. Mostramos lo que te hace único con estrategias de comunicación y elementos estratégicamente seleccionados creando contenido de valor para posicionar tu marca logrando resultados traducidos a ventas ");
                 src = $("#img-social").attr("src");
                 img.attr('src', src);
                 console.log(src);
                 break;
             case "posicionamiento": 
-                titulo.text("posicionamiento");
-                contenido.text("posicionamiento");
+                titulo.text("POSICIONAMIENTO DIGITAL");
+                contenido.text("Analizamos más que palabras, desarrollamos modelos comerciales basados en métricas y lenguajes de negocio que llevan tu marca al lugar indicado.");
                 src = $("#img-posicionamientod").attr("src");
                 img.attr('src', src);
                 console.log(src);
                 break;
             case "diseno": 
-                titulo.text("diseno");
-                contenido.text("diseno");
+                titulo.text("DISEÑO & DESARROLLO WEB");
+                contenido.text("Diseñamos y desarrollamos la atmosfera correcta para gestionar tu negocio on line bajo una arquitectura comercial que te ayuda a gestionar cada variable de negocio para tu marca.");
                 src = $("#img-diseno").attr("src");
                 img.attr('src', src);
                 console.log(src);
                 break;
             case "comunicacionVisual": 
-                titulo.text("comunicacionVisual");
-                contenido.text("comunicacionVisual");
+                titulo.text("COMUNICACIÓN VISUAL");
+                contenido.text("Mediante el análisis y diseño de la información, creamos conceptos creativos desarrollando atmósferas de impacto visual que generan resultados cuantitativos.");
                 src = $("#img-comunicacionv").attr("src");
                 img.attr('src', src);
                 console.log(src);
                 break;
             case "comunicacionContenido": 
-                titulo.text("comunicacionContenido");
-                contenido.text("comunicacionContenido");
+                titulo.text("DESARROLLO DE CONTENIDO");
+                contenido.text("Comunicamos el valor de tus proyectos.");
                 src = $("#img-comunicacionc").attr("src");
                 img.attr('src', src);
                 console.log(src);
                 break;
             case "marketing": 
-                titulo.text("marketing");
-                contenido.text("marketing");
+                titulo.text("MARKETING AUTOMOTRIZ");
+                contenido.text("Somos un equipo especializado en desarrollar y diseñar proyectos de comunicación y capacitación para la industria automotriz; desarrollamos de punta a punta lanzamientos de nuevos modelos, performance driving, driving tranning enfocados en una sola variable, generar la mejor experiencia de tu cliente final.");
                 src = $("#img-marketing").attr("src");
                 img.attr('src', src);
                 console.log(src);
                 break;
             case "photography": 
-                titulo.text("photography");
-                contenido.text("photography");
+                titulo.text("PHOTOGRAPHY");
+                contenido.text("Las verdaderas campañas son para toda la vida… Y eso es lo que logramos con cada fotografía creada por Diametral28; desarrollamos proyectos de comunicación visual que nos permiten conectar con las emociones de tus clientes.");
                 src = $("#img-photo").attr("src");
                 img.attr('src', src);
                 console.log(src);

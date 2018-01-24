@@ -40,6 +40,15 @@
     display: inline-block;
     margin: 0px 5px;
    }
+
+   .section_title_black h2{
+      font-size: 20px;
+      letter-spacing: 10px;
+   }
+   .section_title_white h2{
+      font-size: 20px;
+      letter-spacing: 10px;
+   }
 }
 /* Tamaño m */
 @media screen and (min-width: 768px) and (max-width: 991px){
