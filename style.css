@@ -1238,7 +1238,7 @@ figcaption.portfolio-overlay p {
 =========================== */
 
 #purchase-area {
-    background: url("images/parallax/mano.jpg") no-repeat fixed center center / cover;
+   /* background: url("images/parallax/mano.jpg") no-repeat fixed center center / cover;*/
     text-align: center;
     background-attachment: fixed;
 }
@@ -1658,7 +1658,7 @@ Start Services CSS
 ===============================================*/
 
 #amazing-facts-area {
-    background: url(images/parallax/negro.jpg) no-repeat fixed center center / cover;
+    /*background: url(images/parallax/negro.jpg) no-repeat fixed center center / cover;*/
     margin-top: 90px;
 }
 
