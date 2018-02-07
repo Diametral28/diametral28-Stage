@@ -127,10 +127,10 @@ Base CSS or Common CSS are in reset.css
 #team-inner{
     overflow: hidden;
 }
-#team-over{
+/*#team-over{
     width: 370px;
     left: 15px;
-}
+}*/
 
 /* ============================================
   Servicios
