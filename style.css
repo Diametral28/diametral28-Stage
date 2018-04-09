@@ -184,14 +184,13 @@ width:100%;
   transform: scale(1.5);
 }
 .serv-over{
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 opacity: 0;
 position: absolute;
 left: 0;
 top: 0;
 width: 100%;
 height: 100%;
-background-color: #0000;
 -webkit-transition-property: opacity;
 -moz-transition-property: opacity;
 -o-transition-property: opacity;
@@ -205,6 +204,12 @@ transition-duration: 0.2s;
 -o-transition-timing-function: linear;
 transition-timing-function: linear;
 }
+.serv-over-color{
+    background-color: #000;
+}
+.serv-over-color-2{
+    background-color: #0000;
+}
 .serv-over:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.7;
@@ -212,12 +217,17 @@ transition-timing-function: linear;
 .serv-info{
     position: absolute;
     left: 0;
-    top: calc(50% - 100px);
     height: 40px;
     margin-bottom: -25px;
     width: 100%;
     text-align: center;
     color: #FFF;
+}
+.serv-info-position{
+     top: calc(50% - 35px);
+}
+.serv-info-position-2{
+     top: calc(50% - 100px);
 }
 .serv-info ul{
     list-style: none;
@@ -2563,7 +2573,7 @@ sonarEffect
 div#preloader {
     overflow: hidden;
     background-color: #000;
-    background-image: url(images/core-images/sqLoading_2.gif);
+    background-image: url(images/core-images/cubo.gif);
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
