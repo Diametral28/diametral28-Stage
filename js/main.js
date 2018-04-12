@@ -228,7 +228,7 @@
                 break;
             case "socialMedia": 
                 titulo.text("SOCIAL MEDIA");
-                contenido.text("STe conectamos al mundo. Mostramos lo que te hace único con estrategias de comunicación y elementos estratégicamente seleccionados creando contenido de valor para posicionar tu marca logrando resultados traducidos a ventas ");
+                contenido.text("Te conectamos al mundo. Mostramos lo que te hace único con estrategias de comunicación y elementos estratégicamente seleccionados creando contenido de valor para posicionar tu marca logrando resultados traducidos a ventas ");
                 src = $("#img-social").attr("src");
                 img.attr('src', src);
                 console.log(src);
