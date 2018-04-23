@@ -33,7 +33,7 @@
   text-indent: -9999px;
   width: 140px;
   height: 102px;
-  background: url(../images/clientes/idennto-8.svg);
+  background: url(../images/clientes/samsung-8.svg);
   background-size: 140px 102px;
   margin-bottom: 20px;
 }
@@ -114,6 +114,114 @@
   width: 140px;
   height: 102px;
   background: url(../images/clientes/vivens-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-sams {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/sams-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-walmart {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/walmart-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-marina {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-midland {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/midland-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-motorola {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/motorola-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-polaroid {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/polaroid-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-pfizer {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/pfizer-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-dupont {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/dupont-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-nestle {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/nestle-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-htc {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/htc-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-dji {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/dji-8.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
+.logos-porche {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/porsche-8.svg);
   background-size: 140px 102px;
   margin-bottom: 20px;
 }
