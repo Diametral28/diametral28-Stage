@@ -4,10 +4,11 @@
     var body = $('body');
     var windowWidth = $( window ).width();
     
-    // 1.0  Testimonial Carousel 
+    // 1.0  Carousel Clientes
     $('.testimonial_carousel').owlCarousel({
         loop:true,
         autoplay:true,
+        autoplayTimeout:20000,
         nav:true,
         navText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
         responsive:{
