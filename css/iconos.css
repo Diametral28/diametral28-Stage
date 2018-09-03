@@ -225,3 +225,12 @@
   background-size: 140px 102px;
   margin-bottom: 20px;
 }
+.logos-hescon {
+  display: block;
+  text-indent: -9999px;
+  width: 140px;
+  height: 102px;
+  background: url(../images/clientes/hescon_423.svg);
+  background-size: 140px 102px;
+  margin-bottom: 20px;
+}
