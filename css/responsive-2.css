@@ -19,9 +19,16 @@
         width: 30px;
    }
    #log-spoty{
-        position: absolute;top: 90%;left: 20%;z-index: 999;text-align: left;
+        position: absolute;top: 90%;left: 15%;z-index: 999;text-align: left;
     }
     #log-spoty img{
+        height: 30px;
+        width: 30px;
+   }
+   #log-whats{
+        position: absolute;top: 90%;left: 25%;z-index: 999;text-align: left;
+    }
+    #log-whats img{
         height: 30px;
         width: 30px;
    }
@@ -72,6 +79,9 @@
     #log-spoty{
         position: absolute;top: 90%;left: 30%;z-index: 999;text-align: left;
     }
+    #log-whats{
+        position: absolute;top: 90%;left: 40%;z-index: 999;text-align: left;
+    }
     #redes{
     position: absolute;
     top: 90%;
@@ -118,6 +128,9 @@
     #log-spoty{
         position: absolute;top: 85%;right: 80px;z-index: 999;text-align: left;
     }
+    #log-whats{
+        position: absolute;top: 94%;right: 80px;z-index: 999;text-align: left;
+    }
     #redes{
       position: absolute;top: 50%;right: -25px;z-index: 999;text-align: right;-webkit-transform: rotate(270deg);transform: rotate(270deg);
     }
@@ -148,8 +161,11 @@
    #log-strava{
         position: absolute;top: 75%;right: 105px;z-index: 999;text-align: left;
     }
-  #log-spoty{
+   #log-spoty{
         position: absolute;top: 85%;right: 105px;z-index: 999;text-align: left;
+    }
+    #log-whats{
+        position: absolute;top: 94%;right: 105px;z-index: 999;text-align: left;
     }
     #redes{
       position: absolute;top: 50%;right: -14px;z-index: 999;text-align: right;-webkit-transform: rotate(270deg);transform: rotate(270deg);
@@ -180,6 +196,9 @@
     }
     #log-spoty{
         position: absolute;top: 85%;right: 130px;z-index: 999;text-align: left;
+    }
+    #log-whats{
+        position: absolute;top: 95%;right: 130px;z-index: 999;text-align: left;
     }
     #redes{
       position: absolute;top: 50%;right: 13px;z-index: 999;text-align: right;-webkit-transform: rotate(270deg);transform: rotate(270deg);

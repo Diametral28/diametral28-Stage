@@ -2302,6 +2302,10 @@ sonarEffect
     background: #125688;
 }
 
+.footer-icon a i.whatsapp:hover {
+    background: #4CAF50;
+}
+
 .footer-icon a i.youtube:hover {
     background: #bb0000;
 }
