@@ -1,1 +1,4 @@
 sftp-config.json
+.DS_Store
+images/.DS_Store
+.gitignore

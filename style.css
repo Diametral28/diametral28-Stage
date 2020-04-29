@@ -102,6 +102,27 @@ Base CSS or Common CSS are in reset.css
     height: 70px;
     width: auto;
 }
+.imgtest{
+    width: 200px;
+    height: 300px;
+    background-color: yellow;
+}
+.main-slider{
+    background-image: url(images/slider/delhi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.wi-100{
+    width: 100% !important;
+}
 
 /* ============================================
   Modal
@@ -115,6 +136,13 @@ Base CSS or Common CSS are in reset.css
     width: 100%;
     bottom: 0%;
     height: auto;
+}
+
+.contact-p{
+    font-size: 500% !important;
+}
+.contact-div{
+    margin-bottom: 80px;
 }
 /* ============================================
   Equipo
@@ -131,6 +159,54 @@ Base CSS or Common CSS are in reset.css
     width: 370px;
     left: 15px;
 }*/
+/* ---- grid-item ---- */
+
+.img-he{
+    height: 100% !important;
+}
+
+.border-logo{
+    border: 1px solid #f2f2f2;
+}
+
+.img-wi{
+    width: 100% !important;
+}
+.grid {
+  background: #eee0;
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 160px;
+  height: 120px;
+  float: left;
+  /* vertical gutter */
+  margin-bottom: 20px;
+  background: #d260;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+.grid-item--width2 { width: 340px; }
+.grid-item--width3 { width: 520px; }
+.grid-item--width4 { width: 780px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+.grid-item--height5 { height: 520px; }
+
 
 /* ============================================
   Servicios
@@ -248,6 +324,81 @@ transition-timing-function: linear;
     -webkit-animation-delay: 1s;
     -webkit-animation-iteration-count: 1;
 }
+
+.slider-items{
+    margin-top: 35%;
+}
+
+.circle{
+    font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    color: #a0a0a0;
+}
+
+.grey-crew h3{
+    color: #8c8a8a;
+}
+
+.black-back{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.vl {
+    border-left: 1px solid #a0a0a0;
+    height: 850px;
+    position: absolute;
+    z-index: 0;
+    margin-top: 100%;
+    margin-left: 12%;
+}
+
+.link-a{
+    color: #dadada !important;
+}
+
+.loader{
+    position: absolute !important;
+    top: 80%;
+    right: 1%;
+}
+
+.ldBar path.mainline {
+    stroke-width: 10;
+    stroke: #09f;
+    stroke-linecap: round;
+  }
+  .ldBar path.baseline {
+    stroke-width: 14;
+    stroke: #f1f2f3;
+    stroke-linecap: round;
+    filter:url(#custom-shadow);
+  }
+
+  #myProgress {
+      width: 100%;
+      background-color: #dddddd54;
+      border-radius: 20px;
+      margin-top: 5%;
+    }
+
+    #myBar {
+      width: 12.5%;
+      height: 10px;
+      border-radius: 20px;
+      background-color: #dcdcdc;
+    }
+.img-rad{
+    border-radius: 8px;
+}
+
+.slick-carousel img {
+    width: 200px;
+}
+
+
 
 /* ============================================
 1.  Buttons Effects
@@ -438,6 +589,11 @@ transition-timing-function: ease-out;
 
 ul#nav {
     padding-right: 82px;
+}
+
+#numero{
+    color: white;
+    font-size: 250%;
 }
 
 .mainmenu ul.nav li {
@@ -1662,6 +1818,10 @@ Start Services CSS
   opacity: 1;
 }
 
+.size-div{
+    height: 700px;
+}
+
 
 /* ============================================
 10.               Start Amazing Facts CSS
@@ -2091,6 +2251,10 @@ sonarEffect
 .contact-form input:focus,
 .contact-form textarea#message:focus {
     box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.1);
+}
+
+.black{
+    color: #444 !important;
 }
 
 .contact-form textarea#message {

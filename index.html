@@ -72,6 +72,8 @@
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" href="images/core-images/iconod28.png">
     <link rel="shortcut icon" type="image/png" href="images/core-images/iconod28.ico">
+    <link rel="stylesheet" type="text/css" href="css/loading-bar.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -115,14 +117,17 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul id="nav" class="nav navbar-nav">
-                                        <li class="active smoth-scroll"><a href="#home">Inicio</a></li>
-                                        <li class="smoth-scroll"><a href="#about-area">Nosotros</a></li>
+                                        <li class="active smoth-scroll"><a href="#home">HOME</a></li>
+                                        <li class="smoth-scroll"><a href="#portfolio-area">HAPPENS</a></li>
+                                        <li class="smoth-scroll"><a href="#about-area">NOSOTROS</a></li>
                                         <!-- <li class="smoth-scroll"><a href="#portfolio-area">Portfolio</a></li> -->
-                                        <li class="smoth-scroll"><a href="#portfolio-area">Servicios</a></li>
+<!--                                         <li class="smoth-scroll"><a href="#portfolio-area">SERVICIOS</a></li> -->
+                                        <li class="smoth-scroll"><a href="#portfolio-area">CREW</a></li>
                                         <!-- <li class="smoth-scroll"><a href="#our-team-area">Equipo</a></li> -->
-                                        <li class="smoth-scroll" id="blog-men"><a href="#blog-area">Blog28</a></li>
+                                        <li class="smoth-scroll" id="blog-men"><a href="#blog-area">LINEUP</a></li>
                                         <!-- <li class="smoth-scroll"><a href="#pricing-area">Pricing</a></li> -->
-                                        <li class="smoth-scroll"><a href="#contact-area">Contacto</a></li>
+                                        <li class="smoth-scroll"><a href="#contact-area">WHY D28</a></li>
+                                        <li class="smoth-scroll"><a href="#contact-area">CONTACTO</a></li>
                                     </ul>
                                     <!-- Menu Open Close/ Search Area Start -->
                                     <div class="menu_open_close_search hidden-xs">
@@ -150,77 +155,226 @@
     <!-- ================= End Header Area ================= -->
 
     <!-- ================= Start Mail Slider Area ================= -->
-    <div id="main_slider_area">
-        <div class="fullwidthbanner-container">
-          <div class="social-link-area" id="logo-menu" style="" >
-            <img id="img-log" src="images/slider/logo 70x70px copy.png" alt="">
-          </div>
-          <div class="social-link-area" id="blog28" style="">
-            <!-- <a href="#" style="color: #fff; font-size: 30px;" >Blog<span style="font-family: TwCenClassMTStd-Regular;">28</span> </a> -->
-            <a href="#blog-area"><img id="imgBlog" src="images/slider/Blog28.png" alt=""></a>
-          </div>
-          <div class="social-link-area" id="redes" style="">
-            <ul>
-              <li><a href="">Facebook</a></li>
-              <li><a href="">Twitter</a></li>
-              <li><a href="">Linkedin</a></li>
-            </ul>
-          </div>
-          <div class="social-link-area" id="log-strava" style="">
-            <img src="images/slider/icono_strava-50x50px.png">
-          </div>
-          <div class="social-link-area" id="log-spoty" style="">
-            <a data-toggle="modal" class="serviciosA" data-target="#spotifyModal">
-                <img src="images/slider/icono_spoty-50x50px.png">
-            </a>
-          </div>
-          <div class="social-link-area" id="log-whats" style="">
-            <a class="serviciosA" target="_blank" href="https://api.whatsapp.com/send?phone=525527017842&text=¡Hola! ✉ Estoy interesad@ en más información, vi su página web y quiero hacer cosas interesantes con mi marca / negocio">
-                <img src="images/slider/whatsapp.png">
-            </a>
-          </div>
-        
-            <div class="fullwidthbanner" >
-                
+    <section class="main-slider">
+        <div id="main_slider_area">
+            <div class="fullwidthbanner-container">
+              <!-- <div class="social-link-area" id="logo-menu" style="" >
+                <img id="img-log" src="images/slider/logo 70x70px copy.png" alt="">
+              </div>
+              <div class="social-link-area" id="blog28" style="">
+                <a href="#blog-area"><img id="imgBlog" src="images/slider/Blog28.png" alt=""></a>
+              </div>
+              <div class="social-link-area" id="redes" style="">
                 <ul>
-
-                    <!-- 1st SLIDE Start -->
-                    <li id="large-header" data-transition="boxfade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/slider_thumb_three.jpg" data-delay="15000" data-saveperformance="off" data-title="Welcome To SANDER">
-                        <!-- MAIN IMAGE -->
-                        <img class="img-responsive"  src="images/slider/pexels-photo-2.jpg" alt="Slider One Bg">
-                        
-                        <!-- LAYERS -->
-
-                         <!-- Layer 1 Apple -->
-                       <div class="tp-caption sft tp-resizeme" data-x="center" data-y="center" data-speed="100" data-start="100"  style="max-width: auto; max-height: auto;">
-                           <canvas id="demo-canvas"></canvas>
-                       </div>
-                       
-                       <div class="tp-caption sfb tp-resizeme" data-x="500" data-y="center" data-speed="600" data-start="1500" data-easing="easeInQuad" data-easeout="easeOutQuad" style="max-width: auto; max-height: auto; font-family: Oswald-Regular; color: #fff; font-size: 55px;  text-align:left; line-height:90px; font-weight:900; ">
-                          <!-- <h2 style="color: #fff; font-size: 20px; font-family: AvenirNextCondensed-Regular; margin: -18px 0px;">Para verdaderamente cambiar el mundo solo necesitas un sueño ,</h2>
-                          <h1 style="max-width: auto; max-height: auto; font-family: Oswald-Regular; color: #fff; font-size: 65px;  text-align:left; line-height:90px; font-weight:900;"> UNA IDEA y SOCIOS </h1>
-                          <h1 style="max-width: auto; max-height: auto; font-family: Oswald-Regular; color: #fff; font-size: 65px;  text-align:left; line-height:90px; font-weight:900; margin: -24px 0px;">DE NEGOCIO<span style="color: #fff; font-size: 40px;"> que entiendan</span> </h1>
-                          <h1 style="max-width: auto; max-height: auto; font-family:Oswald-Regular; color: #fff; font-size: 65px;  text-align:left; line-height:90px; font-weight:900; margin: -24px 0px;"> COMO HACERLO</h1> -->
-                          <h2 style="color: #fff; font-size: 30px; font-family: AvenirNextCondensed-Regular; margin: -10px 0px;">Imaginamos | Creamos | Construimos</h2>
-                          <h1 style="max-width: auto; max-height: auto; font-family: Oswald-Regular; color: #fff; font-size: 65px;  text-align:left; line-height:90px; font-weight:900;"> VIVIMOS TU MARCA </h1>
-                       </div>
-
-                       <div class="tp-caption sfl tp-resizeme" data-x="500" data-y="530" data-speed="700" data-start="3400" data-easing="easeInOutQuad" style="max-width: auto; max-height: auto;">
-                           <!-- <a href="#" id="videoVivens"><img src="images/slider/icono_play 50x50px copy.png" alt="" data-toggle="modal" data-target="#myModal"/></a> -->
-                       </div>
-
-                    </li>
-                    <!-- 1st SLIDE End -->
-
-                    
-
+                  <li><a href="">Facebook</a></li>
+                  <li><a href="">Twitter</a></li>
+                  <li><a href="">Linkedin</a></li>
                 </ul>
+              </div>
+              <div class="social-link-area" id="log-strava" style="">
+                <img src="images/slider/icono_strava-50x50px.png">
+              </div>
+              <div class="social-link-area" id="log-spoty" style="">
+                <a data-toggle="modal" class="serviciosA" data-target="#spotifyModal">
+                    <img src="images/slider/icono_spoty-50x50px.png">
+                </a>
+              </div>
+              <div class="social-link-area" id="log-whats" style="">
+                <a class="serviciosA" target="_blank" href="https://api.whatsapp.com/send?phone=525527017842&text=¡Hola! ✉ Estoy interesad@ en más información, vi su página web y quiero hacer cosas interesantes con mi marca / negocio">
+                    <img src="images/slider/whatsapp.png">
+                </a>
+              </div> -->
+            
+                <div class="fullwidthbanner" >
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <div class="">
+
+                                        <div class="vl"></div>
+                                        <span number="0" style="margin-top: 170%; font-size: 25px;" class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                        <span number="1" style="margin-top: 320%;" class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                        <span number="2" style="margin-top: 470%;" class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                        <span number="3" style="margin-top: 620%;" class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                        <span number="4" style="margin-top: 770%;" class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                        <span number="5" style="margin-top: 920%;" class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                        <span number="6" style="margin-top: 1070%;" class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-11">
+                                    <div class="slider-items">
+                                        <div class="c wi-100">
+                                            <div class="item wi-100">
+                                                <br>
+                                                <h1 style="color: white; font-size: 80px;">Delhi 1</h1>
+                                                <br>
+                                                <p style="color:  #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <br>
+                                                <p style="color: #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+                                           </div>
+                                           <div class="item wi-100">
+                                                <br>
+                                                <h1 style="color: white; font-size: 80px;">Delhi 2</h1>
+                                                <br>
+                                                <p style="color:  #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <br>
+                                                <p style="color: #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                           </div>
+                                           <div class="item wi-100">
+                                                <br>
+                                                <h1 style="color: white; font-size: 80px;">Delhi 3</h1>
+                                                <br>
+                                                <p style="color:  #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <br>
+                                                <p style="color: #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                           </div>
+                                           <div class="item wi-100">
+                                                <br>
+                                                <h1 style="color: white; font-size: 80px;">Delhi 4</h1>
+                                                <br>
+                                                <p style="color:  #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <br>
+                                                <p style="color: #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                           </div><div class="item wi-100">
+                                                <br>
+                                                <h1 style="color: white; font-size: 80px;">Delhi 5</h1>
+                                                <br>
+                                                <p style="color:  #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <br>
+                                                <p style="color: #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                           </div><div class="item wi-100">
+                                                <br>
+                                                <h1 style="color: white; font-size: 80px;">Delhi 6</h1>
+                                                <br>
+                                                <p style="color:  #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <br>
+                                                <p style="color: #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                           </div><div class="item wi-100">
+                                                <br>
+                                                <h1 style="color: white; font-size: 80px;">Delhi 7</h1>
+                                                <br>
+                                                <p style="color:  #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                <br>
+                                                <p style="color: #d2cfcf;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                           </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                            <div class="owl-carousel owl-theme slider-items" id="slider-carousel">
+                                <div id="div-1" class="item"><h4><img class="img-rad" src="images/prueba/img1.jpg"></h4></div>
+                                <div id="div-2" class="item"><h4><img class="img-rad" src="images/prueba/img1.jpg"></h4></div>
+                                <div id="div-3" class="item"><h4><img class="img-rad" src="images/prueba/img3.jpg"></h4></div>
+                                <div id="div-4" class="item"><h4><img class="img-rad" src="images/prueba/img1.jpg"></h4></div>
+                                <div id="div-5" class="item"><h4><img class="img-rad" src="images/prueba/img2.jpg"></h4></div>
+                                <div id="div-6" class="item"><h4><img class="img-rad" src="images/prueba/img3.jpg"></h4></div>
+                                <div id="div-7" class="item"><h4><img class="img-rad" src="images/prueba/img1.jpg"></h4></div>
+                                <div id="div-8" class="item"><h4><img class="img-rad" src="images/prueba/img2.jpg"></h4></div>
+                                <div id="div-9" class="item"><h4><img class="img-rad" src="images/prueba/img3.jpg"></h4></div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <h2 style="color: #929292;"><span id="numero">1</span> de 9</h2>
+                                </div>
+                                <div class="col-sm-10">
+                                    <div id="myProgress">
+                                      <div id="myBar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
             </div>
         </div>
-    </div>
+    </section>
     <!-- ================= End Main Slider Area ================= -->
 
     <!-- ================= Start About Area ================= -->
+
     <section id="about-area">
         <div class="container section-padding">
             <div class="row">
@@ -237,7 +391,7 @@
                             <li><i class="fa fa-caret-right"></i>Responsabilidad adultos mayores</li>
                             <li><i class="fa fa-caret-right"></i>Conciencia Verde</li>
                         </ul>
-                        <a href="#" data-toggle="modal" class="serviciosA" data-target="#nosotrosModal">Leer mas...</a>
+                        <a href="#" class="serviciosA" data-toggle="modal" data-target="#whyModal">Leer mas...</a>
                         <!-- <img src="images/nosotros/3-plantas.png" style="position: absolute;width: 50%;top: 1%;right: 1%;" alt="About Image" />
                      -->
                         <!-- View More Button -->
@@ -259,29 +413,376 @@
         </div>
     </section>
     <!-- ================= End About Area ================= -->
+    <!-- ================= Crew Area ================= -->
+    <section class="black-back">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 grey-crew">
+                    <h3 id="crew-0" style="color: #ffff;">Iván Villa – TI Mgr</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 id="crew-1">Erika Olivo – Vtas Gdl</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 id="crew-2">Pepe Maqueo – Test Driver</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 id="crew-3">Joel Urive – Sales & Communication</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 id="crew-4">Omar Ramírez – Director y fundador</h3>
+                </div>
+                <div class="col-sm-8">
+                    <div class="d wi-100">
+                        <div class="item wi-100">
+                            <img class="img-he img-wi" src="images/crew/man1.jpg">
+                        </div>
+                        <div class="item wi-100">
+                            <img class="img-he img-wi" src="images/crew/woman.jpg">
+                        </div>
+                        <div class="item wi-100">
+                            <img class="img-he img-wi" src="images/crew/man2.jpg">
+                        </div>
+                        <div class="item wi-100">
+                            <img class="img-he img-wi" src="images/crew/man3.jpg">
+                        </div>
+                        <div class="item wi-100">
+                            <img class="img-he img-wi" src="images/crew/man4.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ================= End Crew Area ================= -->
         <!-- ================= Start Purchase Area ================= -->
+    <br><br><br>
+    <section >
+        <div class="container">
+            <div class="grid">
+              <div data-wow-delay="0.5s" class="wow bounceInUp grid-item grid-item--width3 grid-item--height2">
+                  <h2 class="black">Estrategia Creativa </h2>
+                  <p>estrategia de identificación   , Brand communication, graphic brand strategy, naming, slogan and watchword development, audit and Brand standarization</p>
+              </div>
+              <div data-wow-delay="0.6s" class="wow bounceInRight grid-item grid-item--width2 grid-item--height2">
+                  <img class="img-he img-wi" src="images/servicios/Estrategia-creativa.jpg">
+              </div>
+              <div data-wow-delay="0.7s" class="wow bounceInLeft grid-item grid-item--height2">
+                  <img src="images/servicios/creatividad-estrategia-publicidad-marketing.png">
+              </div>
+              <div data-wow-delay="0.5s" class="wow bounceInDown grid-item grid-item--width3 grid-item grid-item--height4">
+                  <img class="img-he" src="images/servicios/branding.png">
+              </div>
+              <div data-wow-delay="0.5s" class="wow bounceInUp grid-item">
+                  <img class="img-he" src="images/servicios/Branding2.jpg">
+              </div>
+              <div data-wow-delay="0.6s" class="wow bounceInRight grid-item grid-item--width3">
+                  <h1>Branding</h1>
+                  <p>identidad corporativa, diseño editorial, advertising, product desing, packaging and label desing</p>
+              </div>
+              <div data-wow-delay="0.7s" class="wow bounceInLeft grid-item grid-item--width2 grid-item--height3">
+                  <img class="img-he img-wi" src="images/servicios/digital_media.png">
+              </div>
+              <div data-wow-delay="0.8s" class="wow bounceInDown grid-item grid-item--height2 ">
+                  <img class="img-he img-wi" src="images/servicios/digital-media2.jpg">
+              </div>
+              <div data-wow-delay="0.5s" class="wow bounceInUp grid-item grid-item--width3 grid-item--height2">
+                  <h1>Digital Media </h1>
+                  <p>social media management, Publicidad digital- aquí debemeos certificarnos,multimedia, diseño y programación web, render de producto </p>
+              </div>
+            <div data-wow-delay="0.7s" class="wow bounceInRight grid-item grid-item--width2 grid-item--height2">
+                 <h1>Arquitectura Digital</h1>
+                 <p>videos corporativos, diseño arquitectónico comercial, diseño de interiores, render/ mobiliario comercial</p>
+              </div>
+              <div data-wow-delay="0.6s" class="wow bounceInLeft grid-item ">
+                   <img class="img-he img-wi" src="images/servicios/arquitectura2.jpg">
+              </div>
+              <div data-wow-delay="0.5s" class="wow bounceInUp grid-item grid-item--height2 grid-item--width2">
+                  <img class="img-he img-wi" src="images/servicios/arquitectura.jpg">
+                  
+              </div>
+              
+              <div data-wow-delay="0.6s" class="wow bounceInRight grid-item grid-item--width2">
+                  <h1>Marketing Automotriz</h1>
+              </div>
+              <div data-wow-delay="0.7s" class="wow bounceInLeft grid-item grid-item--height5 grid-item--width2">
+                  <img class="img-he" src="images/servicios/photographi.jpeg">
+              </div>
+              <div data-wow-delay="0.8s" class="wow bounceInDown grid-item grid-item--width2 grid-item--height3">
+                  <img class="img-he" src="images/servicios/automotriz.png">
+              </div>
+              <div data-wow-delay="0.5s" class="wow bounceInUp grid-item  grid-item--width2 grid-item--height3">
+                  <img class="img-he" src="images/servicios/automotriz.jpeg">
+              </div>
+
+              <div data-wow-delay="0.6s" class="wow bounceInRight grid-item grid-item--width2">
+                  <h1>Photography</h1>
+              </div>
+              <div data-wow-delay="0.7s" class="wow bounceInLeft grid-item grid-item--width2 grid-item--height3">
+                  <img class="img-he img-wi" src="images/servicios/Photography.jpg">
+              </div>
+              
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="size-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2 class="black">Estrategia Creativa </h2>
+                        <p>estrategia de identificación   , Brand communication, graphic brand strategy, naming, slogan and watchword development, audit and Brand standarization</p>
+                        <br><br>
+                        <div style="position: relative;
+                            left: 2%;
+                            top: 25px;
+                            z-index: 1;
+                            background-color: red;
+                            width: 100%;
+                            height: 250px;">
+                            <img class="img-wi img-he" src="https://revistaconstruir.com/wp-content/uploads/2019/10/edificio.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div style="position: relative;">
+                            <div style="position: absolute;
+                            left: -5%;
+                            top: 25px;
+                            z-index: 5;
+                            background-color: red;
+                            width: 70%;
+                            height: 320px;">
+                                <img class="img-wi img-he" src="https://www.marthadebayle.com/wp-content/uploads/2017/09/edificio-850x585.jpg">
+                            </div>
+                            <div style="position: absolute;
+                            left: 50%;
+                            top: 80px;
+                            z-index: 4;
+                            background-color: yellow;
+                            width: 50%;
+                            height: 250px;">
+                                <img class="img-wi img-he" src="https://www.siglonuevo.mx/galeria/2018/12/2564_m.jpg">
+                            </div>
+                            <div style="    position: absolute;
+                            left: 5%;
+                            top: 250px;
+                            z-index: 2;
+                            background-color: black;
+                            width: 50%;
+                            height: 360px;">
+                                <img class="img-wi img-he" src="https://www.secureweek.com/wp-content/uploads/2020/01/ASHRAE-Est%C3%A1ndar-de-energ%C3%ADa-para-edificios.jpg">
+                            </div>
+                            <div style="    position: absolute;
+                            left: 47%;
+                            top: 320px;
+                            z-index: 3;
+                            background-color: green;
+                            width: 50%;
+                            height: 250px;">
+                                <img class="img-wi img-he" src="https://vidaycasa.mx/wp-content/uploads/2016/10/edificio_mas_alto_ciudad_vida_y_casa_mx.jpg">
+                            </div>
+                            <!-- <div style="position: absolute;
+                            left: 2%;
+                            top: 500px;
+                            z-index: 3;
+                            background-color: blue;
+                            width: 50%;
+                            height: 250px;"> CUADRO 5 </div>
+                            <div style="position: absolute;
+                            left: 50%;
+                            top: 560px;
+                            z-index: 4;
+                            background-color: brown;
+                            width: 50%;
+                            height: 250px;"> CUADRO 6 </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="size-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div style="position: relative;">
+                            <div style="position: absolute;
+                            left: 1%;
+                            top: 25px;
+                            z-index: 5;
+                            background-color: red;
+                            width: 70%;
+                            height: 320px;">
+                                <img class="img-wi img-he" src="https://www.marthadebayle.com/wp-content/uploads/2017/09/edificio-850x585.jpg">
+                            </div>
+                            <div style="position: absolute;
+                            left: 60%;
+                            top: 130px;
+                            z-index: 4;
+                            background-color: yellow;
+                            width: 50%;
+                            height: 250px;">
+                                <img class="img-wi img-he" src="https://www.siglonuevo.mx/galeria/2018/12/2564_m.jpg">
+                            </div>
+                            <div style="    position: absolute;
+                            left: 30%;
+                            top: 320px;
+                            z-index: 3;
+                            background-color: green;
+                            width: 50%;
+                            height: 250px;">
+                                <img class="img-wi img-he" src="https://vidaycasa.mx/wp-content/uploads/2016/10/edificio_mas_alto_ciudad_vida_y_casa_mx.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                         <h2 class="black">Branding</h2>
+                        <p>identidad corporativa, diseño editorial, advertising, product desing, packaging and label desing</p>
+                        <br><br>
+                        <div style="position: relative;
+                            left: 2%;
+                            top: 25px;
+                            z-index: 1;
+                            background-color: red;
+                            width: 100%;
+                            height: 250px;">
+                            <img class="img-wi img-he" src="https://revistaconstruir.com/wp-content/uploads/2019/10/edificio.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="size-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2 class="black">Digital Media </h2>
+                        <p>social media management, Publicidad digital- aquí debemeos certificarnos,multimedia, diseño y programación web, render de producto </p>
+                        <br><br>
+                        <div style="position: relative;
+                            left: 2%;
+                            top: 25px;
+                            z-index: 1;
+                            background-color: red;
+                            width: 100%;
+                            height: 250px;">
+                            <img class="img-wi img-he" src="https://revistaconstruir.com/wp-content/uploads/2019/10/edificio.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div style="position: relative;">
+                            <div style="position: absolute;
+                            left: -5%;
+                            top: 25px;
+                            z-index: 5;
+                            background-color: red;
+                            width: 70%;
+                            height: 320px;">
+                                <img class="img-wi img-he" src="https://www.marthadebayle.com/wp-content/uploads/2017/09/edificio-850x585.jpg">
+                            </div>
+                            <div style="position: absolute;
+                            left: 50%;
+                            top: 80px;
+                            z-index: 4;
+                            background-color: yellow;
+                            width: 50%;
+                            height: 250px;">
+                                <img class="img-wi img-he" src="https://www.siglonuevo.mx/galeria/2018/12/2564_m.jpg">
+                            </div>
+                            <div style="    position: absolute;
+                            left: 5%;
+                            top: 250px;
+                            z-index: 2;
+                            background-color: black;
+                            width: 50%;
+                            height: 360px;">
+                                <img class="img-wi img-he" src="https://www.secureweek.com/wp-content/uploads/2020/01/ASHRAE-Est%C3%A1ndar-de-energ%C3%ADa-para-edificios.jpg">
+                            </div>
+                            <div style="    position: absolute;
+                            left: 47%;
+                            top: 320px;
+                            z-index: 3;
+                            background-color: green;
+                            width: 50%;
+                            height: 250px;">
+                                <img class="img-wi img-he" src="https://vidaycasa.mx/wp-content/uploads/2016/10/edificio_mas_alto_ciudad_vida_y_casa_mx.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="size-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div style="position: relative;">
+                            <div style="position: absolute;
+                            left: 1%;
+                            top: 25px;
+                            z-index: 5;
+                            background-color: red;
+                            width: 70%;
+                            height: 320px;">
+                                <img class="img-wi img-he" src="https://www.marthadebayle.com/wp-content/uploads/2017/09/edificio-850x585.jpg">
+                            </div>
+                            <div style="position: absolute;
+                            left: 60%;
+                            top: 130px;
+                            z-index: 4;
+                            background-color: yellow;
+                            width: 50%;
+                            height: 250px;">
+                                <img class="img-wi img-he" src="https://www.siglonuevo.mx/galeria/2018/12/2564_m.jpg">
+                            </div>
+                            <div style="    position: absolute;
+                            left: 30%;
+                            top: 320px;
+                            z-index: 3;
+                            background-color: green;
+                            width: 50%;
+                            height: 250px;">
+                                <img class="img-wi img-he" src="https://vidaycasa.mx/wp-content/uploads/2016/10/edificio_mas_alto_ciudad_vida_y_casa_mx.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                         <h2 class="black">Arquitectura Digital</h2>
+                        <p>videos corporativos, diseño arquitectónico comercial, diseño de interiores, render/ mobiliario comercial</p>
+                        <br><br>
+                        <div style="position: relative;
+                            left: 2%;
+                            top: 25px;
+                            z-index: 1;
+                            background-color: red;
+                            width: 100%;
+                            height: 250px;">
+                            <img class="img-wi img-he" src="https://revistaconstruir.com/wp-content/uploads/2019/10/edificio.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ================= End Purchase Area ================= -->
     <section id="purchase-area">
         <div class="overlay section-padding-dark">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <!-- <img src="images/purchase-icon.png" alt="Purchase Icon" /> -->
-
                         <img id="frase" src="images/parallax/Frase2.png" alt="">
-
-<!--                         <h2>Frase Dieaetral28 ................</h2> -->
-                        <!-- Get a quote Button -->
-                        <!-- <div class="get_a_quote">
-                            <a href="#">Get a Quote</a>
-                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ================= End Purchase Area ================= -->
-
+    <br>
     <!-- ================= Start Recent Work Area ================= -->
+    
+
     <section id="portfolio-area" class="section-padding no-bottom-padding">
         <div class="container titulo-pad">
             <div class="row">
@@ -413,21 +914,18 @@
     </section>
     <!-- ================= End Recent Work Area ================= -->
  <!-- ================= Start Amazing Facts Area ================= -->
-    <section id="amazing-facts-area">
+    <!-- <section id="amazing-facts-area">
         <div class="overlay section-padding-dark text-center">
             <div class="container no-padding">
                 <div class="row">
                     <div class="col-md-12">
-                        <!-- Section Title -->
                         <div class="section_title_white text-center margin-bottom-60">
                             <h2>ELLOS CONFIAN EN NOSOTROS</h2>
-                            <!-- <p>It’s quality and modern PSD template. It is an elegant solution for corporate business, portfolio sites.</p> -->
                         </div>
                     </div>
                 </div>
                 <div class="testimonial_carousel">
                     <div class="container no-padding">
-                    <!-- Single Counter -->
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
                       <div class=" floatleft">
                         <i class="logos-nissan"></i>
@@ -490,7 +988,6 @@
                     </div>   
                 </div>
                 <div class="container no-padding">
-                    <!-- Single Counter -->
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
                       <div class=" floatleft">
                         <i class="logos-sams"></i>
@@ -556,9 +1053,274 @@
                 
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ================= End Amazing Facts Area ================= -->
 
+    <br><br>
+    <section>
+        <div class="container">
+            <div class="row">
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-nissan"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-publicis"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-opticas"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-vivens"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-museo"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-renault"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-imagen"></i>
+                      </div>
+                    </div> 
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-kia"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-gpm"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-idento"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-3m"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-grupo-indus"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-sams"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-walmart"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-midland"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-motorola"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-polaroid"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-pfizer"></i>
+                      </div>
+                    </div> 
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-dupont"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-nestle"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-htc"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-dji"></i>
+                      </div>
+                    </div>
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-porche"></i>
+                      </div>
+                    </div> 
+                    <div class="border-logo col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-hescon"></i>
+                      </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div style="padding-top: 15%" class="col-md-3">
+                    <h1>Nuestros Clientes</h1>
+                    <p>Tienes una oportunidad de proyecto? o solo estas viendo soluciones creativas?</p>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-nissan"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-publicis"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-opticas"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-vivens"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-museo"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-renault"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-imagen"></i>
+                      </div>
+                    </div> 
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-kia"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-gpm"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-idento"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-3m"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-grupo-indus"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-sams"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-walmart"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-midland"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-motorola"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-polaroid"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-pfizer"></i>
+                      </div>
+                    </div> 
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-dupont"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-nestle"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-htc"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-dji"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-porche"></i>
+                      </div>
+                    </div> 
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                      <div class=" floatleft">
+                        <i class="logos-hescon"></i>
+                      </div>
+                    </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <br>
+    
     <!-- ================= Start Our Team Area ================= -->
     <!-- <section id="our-team-area">
       <div class="container no-padding padding-top-100 padding-bottom-40">
@@ -688,9 +1450,69 @@
     </section>
     <!-- ================= End Blog Area ================= -->
 
+    <section>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section_title_black text-center margin-bottom-70">
+                    <h2>WHY D28</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+             <a href="#" data-toggle="modal" class="serviciosA" data-target="#whyModal">Leer mas...</a>
+        </div>
+    </section>
+
+    <!-- ================= GOOGLE MAPS AREA ================= -->
+    <section>
+        <div class="row">
+                <div class="col-md-12">
+                    <!-- Section Title -->
+                    <div class="section_title_black text-center margin-bottom-70">
+                        <h2>UBICANOS</h2>
+                    </div>
+                </div>
+            </div>
+        <div class="container">
+            <div class="row sucursales">
+                <div class="col-md-6 alcenter text-center" aling="center">
+                    </br>
+                    <h1><i class="pe-7s-map-marker"></i></h1>
+                    <h3 class="black">CIUDAD DE MÉXICO</h3>
+                    <hr>
+                    <p>Av. Cuauhtémoc 1138, Col. Letrán Valle, Del. Benito Juárez. <br> CDMX, CP 03650 <br>
+                    
+                </div>
+            
+                <div class="col-md-6 alcenter text-center" aling="center">
+                    </br>
+                    <h1><i class="pe-7s-map-marker"></i></h1>
+                    <h3 class="black">GUADALAJARA</h3>
+                    <hr>
+                    <p>Av. Moctezuma 5880, Cd del Sol, Zapopan Jalisco  <br> Guadalajara,CP 45054
+                    
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div>
+                    <div class="google-map-area">
+                        <div class="container-fluid no-padding">
+                            <div id="contactgoogleMap"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+    <!-- ================= END GOOGLE MAPS AREA ================= -->
+
     <!-- ================= Contact Area Start ================= -->
     <section id="contact-area" class="padding-top-100">
-        <div class="container no-padding">
+        <div class=" no-padding">
             <div class="row">
                 <div class="col-md-12">
                     <!-- Section Title -->
@@ -702,10 +1524,10 @@
             </div>
             
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-1">
                   
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-10">
                   <div class="row contact_info text-center">
                     <!-- single contact info -->
                     <div class="col-sm-4">
@@ -733,32 +1555,67 @@
                     </div>
                   </div>
                     <!-- contact from start -->
-                    <div class="contact-form">
+                    <!-- <div class="contact-form">
                         <form action="#" method="post">
-                            <!-- single input -->
                             <div class="col-md-6 col-sm-6">
                                 <input type="text" placeholder=" Nombre *" name="name" />
                             </div>
-                            <!-- single input -->
                             <div class="col-md-6 col-sm-6">
                                 <input type="text" placeholder="Correo *" name="email" />
                             </div>
-                            <!-- single input -->
                             <div class="col-md-6 col-sm-6">
                                 <input type="text" placeholder="Telefono *" name="phone" />
                             </div>
-                            <!-- single input -->
                             <div class="col-md-6 col-sm-6">
                                 <input type="text" placeholder="Asunto" />
                             </div>
-                            <!-- single input -->
                             <div class="col-md-12 col-sm-12">
                                 <textarea name="message" id="message" cols="30" rows="10" placeholder=" Tu Mensaje... "></textarea>
                             </div>
-                            <!-- single input -->
                             <div class="col-md-12 col-sm-12 content-center">
-                                <!-- <input name="submit" id="hvr-shutter-in-horizontal" type="submit" value="Enviar Mensaje" /> -->
                                 <button type="submit" name="submit" id="hvr-shutter-in-horizontal">Enviar Mensaje</button>
+                            </div>
+                        </form>
+                    </div> -->
+                    <div class="contact-form">
+                        <form action="#" method="post">
+                            <div class="row contact-div" style="text-align: right;">
+                                <div class="col-md-6">
+                                    <h4 class="contact-p">HOLA,</h4><br>
+                                </div>
+                            </div>
+                            <div class="row contact-div">
+                                <div class="col-md-5">
+                                    <h4 class="contact-p">MI NOMBRE ES</h4>
+                                </div>
+                                <div class="col-md-7">
+                                    <input type="text" name="name" />
+                                </div>
+                            </div>
+                            <div class="row contact-div">
+                                <div class="col-md-7">
+                                    <h4 class="contact-p">ESTE ES MI EMAIL</h4>
+                                </div>
+                                <div class="col-md-5">
+                                    <input type="text" name="name" />
+                                </div>
+                            </div>
+                            <div class="row contact-div">
+                                <div class="col-md-7">
+                                    <h4 class="contact-p">ESTE ES MI MENSAJE</h4>
+                                </div>
+                                <div class="col-md-5">
+                                     <input type="text" name="name" />
+                                </div>
+                                <div class="col-md-12 col-sm-12 content-center">
+                                    <br>
+                                <!-- <input name="submit" id="hvr-shutter-in-horizontal" type="submit" value="Enviar Mensaje" /> -->
+                                    <button type="submit" name="submit" id="" style="border-radius: 200px;
+    border: 0px solid rgb(0, 0, 0);
+    background-color: rgb(255, 175, 54);
+    width: 200px;
+    height: 200px;">Enviar Mensaje</button>
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -767,13 +1624,6 @@
                 
             </div>
         </div>
-        <!-- <img src="images/parallax/fondoGDL.jpg" alt=""> -->
-        <!-- Google Map Area -->
-        <!-- <div class="google-map-area">
-            <div class="container-fluid no-padding">
-                <div id="contactgoogleMap"></div>
-            </div>
-        </div> -->
     </section>
     <!-- ================= Contact Area End ================= -->
 
@@ -808,11 +1658,195 @@
         <div class="container-fluid no-padding">
             <!-- Footer Copywrite text -->
             <div class="footer-bottom text-center">
-                <p>Copyright &copy; 2018 <a href="#">Diametral28</a>. Todos los derechos reservados.</p>
+                <p>Copyright &copy; 2020 <a href="#">Diametral28</a>. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
     <!-- ================= Footer Area End ================= -->
+    <!-- Google Maps API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcBWoMq3q991DQhqQS3-qGJCqz-Pb3aps"></script>
+
+   <!-- Google Maps API -->
+    <script>
+        var myCero = new google.maps.LatLng(20.1055689, -101.0295015);
+        var myCenter = new google.maps.LatLng(19.3750818, -99.1635681);
+        var myCenter2 = new google.maps.LatLng(20.6513815, -103.4366753);
+
+        function initialize() {
+            var mapProp = {
+                center: myCero,
+                zoom: 6,
+                scrollwheel: false,
+                mapTpeIdy: google.maps.MapTypeId.TERRAIN,
+                styles: [
+                    {
+                        "featureType": "landscape",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                            },
+                            {
+                                "lightness": 65
+                            },
+                            {
+                                "visibility": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                            },
+                            {
+                                "lightness": 51
+                            },
+                            {
+                                "visibility": "simplified"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                            },
+                            {
+                                "visibility": "simplified"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                            },
+                            {
+                                "lightness": 30
+                            },
+                            {
+                                "visibility": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                            },
+                            {
+                                "lightness": 40
+                            },
+                            {
+                                "visibility": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                            },
+                            {
+                                "visibility": "simplified"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative.province",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "labels",
+                        "stylers": [
+                            {
+                                "visibility": "on"
+                            },
+                            {
+                                "lightness": -25
+                            },
+                            {
+                                "saturation": -100
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "hue": "#ffff00"
+                            },
+                            {
+                                "lightness": -25
+                            },
+                            {
+                                "saturation": -97
+                            }
+                        ]
+                    }
+                ]
+            };
+            var map = new google.maps.Map(document.getElementById("contactgoogleMap"), mapProp);
+            var contentString = '<div id="content">' +
+                '<div class="sucursales alcenter">' +
+                '<h3 class="black">CDMX</h3>' +
+                '<hr>' +
+                '<p>Av. Cuauhtémoc 1138, Col. Letrán Valle, Del. Benito Juárez. <br> CDMX, CP 03650<br>' +
+                '</p>' +
+                '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            var contentString2 = '<div id="content">' +
+                '<div class="sucursales alcenter">' +
+                '<h3 class="black">GUADALAJARA</h3>' +
+                '<hr>' +
+                '<p>Av. Moctezuma 5880, Cd del Sol, Zapopan Jalisco <br>' +
+                'Guadalajara,CP 45054 </p></br>' +
+                '</div>';
+
+            var infowindow2 = new google.maps.InfoWindow({
+                content: contentString2
+            });
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+                title: 'CDMX',
+                animation: google.maps.Animation.BOUNCE,
+                icon: 'images/google-pin.png'
+            });
+            marker.addListener('click', function () {
+                infowindow.open(map, marker);
+            });
+            var marker2 = new google.maps.Marker({
+                position: myCenter2,
+                title: 'GUADALAJARA',
+                animation: google.maps.Animation.BOUNCE,
+                icon: 'images/google-pin.png'
+            });
+            marker2.addListener('click', function () {
+                infowindow2.open(map, marker2);
+            });
+
+            marker.setMap(map);
+            marker2.setMap(map);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
 
     <!-- jQuery Latest version -->
     <script src="js/vendor/jquery-1.12.2.min.js"></script>
@@ -823,6 +1857,7 @@
     <!-- revolution slider js -->
     <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
     <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
 
     <!-- jQuery Counterup -->
     <script src="js/jquery.counterup.min.js"></script>
@@ -870,9 +1905,15 @@
         <![endif] -->
 
     <!-- jQuery main script -->
-    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script src="js/animated-bg.js"></script>
     <script src="js/mixitup.min.js"></script>
+    <script type="text/javascript" src="js/loading-bar.js"></script>
+    <script type="text/javascript" src="js/jquery.carousel.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
 
 </body>
 <!-- Modal -->
@@ -949,12 +1990,20 @@
                             <li><i class="fa fa-caret-right"></i>Conciencia Verde</li>
                         </ul>
                 <p>En Diametral28 <b> SOMOS </b> una marca concebida para el <b> desarrollo y arquitectura </b> de proyectos de <b> marketing global</b> de gran impacto ,nuestra configuración de negocio siempre será totalmente <b> limpia, fresca, directa y de mucha fuerza; debemos y vamos a transformar la industria de la comunicación </b> visual, auditiva, branding, y lo que está por cambiar… Creamos <b> historias de negocio rentables.</b>
-                <p>En Diametral28 reconfiguramos variables de negocio y emociones en experiencias para que el cliente multipliquen el valor de su marca; es por eso que nos podemos definir como un <b>CATALIZADOR</b> de <b>EMOCIONES</b>  que mueve tu marca.</p>
+                <p>En Diametral28 reconfiguramos variables de negocio y emociones en experiencias para que el cliente multiplique el valor de su marca; es por eso que nos podemos definir como un catalizador de emociones que mueve tu marca.</p>
             </div>
         </div>
       </div>
     </div>
 
+  </div>
+</div>
+<!-- Modal WHYD28-->
+<div id="whyModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      ...
+    </div>
   </div>
 </div>
 <!-- Modal  SPOTIFY-->
@@ -983,4 +2032,5 @@
 
   </div>
 </div>
+
 </html>

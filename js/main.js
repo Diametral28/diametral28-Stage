@@ -4,6 +4,144 @@
     var body = $('body');
     var windowWidth = $( window ).width();
     
+    $('.owl-carousel').owlCarousel({
+        items:2,
+        loop:false,
+        margin:10,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:2
+            }
+        }
+    });
+
+  $('.grid').masonry({
+      itemSelector: '.grid-item',
+      columnWidth: 160,
+      gutter: 20
+    });
+
+    $('.c').jCarousel({
+        auto: {
+            isauto:true,
+            interval:2000
+          },
+          type:'slidey-down',
+          //carsize: {carwidth:600,carheight:400},
+    },'slider');
+
+    $('.d').jCarousel({
+        auto: {
+            isauto:true,
+            interval:2000
+          },
+          type:'slidey-down',
+          //carsize: {carwidth:600,carheight:400},
+    },'crew');
+
+    // Slider Carousel
+    $('.item').mousemove(function(){
+        console.log('hola');
+        let div1 = $('#div-1').parent( ".owl-item" ).attr('class');
+        let div2 = $('#div-2').parent( ".owl-item" ).attr('class');
+        let div3 = $('#div-3').parent( ".owl-item" ).attr('class');
+        let div4 = $('#div-4').parent( ".owl-item" ).attr('class');
+        let div5 = $('#div-5').parent( ".owl-item" ).attr('class');
+        let div6 = $('#div-6').parent( ".owl-item" ).attr('class');
+        let div7 = $('#div-7').parent( ".owl-item" ).attr('class');
+        let div8 = $('#div-8').parent( ".owl-item" ).attr('class');
+        let div9 = $('#div-9').parent( ".owl-item" ).attr('class');
+
+        if(div1.includes('active') && div2.includes('active')){
+            $('#myBar').css( "width", "12.5%" );
+            $('#numero').text('1');
+        }else if (div2.includes('active') && div3.includes('active')){
+            $('#myBar').css( "width", "25%" );
+            $('#numero').text('2');
+        }else if (div3.includes('active') && div4.includes('active')){
+            $('#myBar').css( "width", "37.5%" );
+            $('#numero').text('3');
+        }else if (div4.includes('active') && div5.includes('active')){
+            $('#myBar').css( "width", "50%" );
+            $('#numero').text('4');
+        }else if (div5.includes('active') && div6.includes('active')){
+            $('#myBar').css( "width", "62.5%" );
+            $('#numero').text('5');
+        }else if (div6.includes('active') && div7.includes('active')){
+            $('#myBar').css( "width", "75%" );
+            $('#numero').text('6');
+        }else if (div7.includes('active') && div8.includes('active')){
+            $('#myBar').css( "width", "87.5%" );
+            $('#numero').text('7');
+        }else if (div8.includes('active') && div9.includes('active')){
+            $('#myBar').css( "width", "100%" );
+            $('#numero').text('8');
+        }
+
+    });
+
+    $('.c').click(function(){
+        
+        //moveCircle();
+        // let number = $(this).attr('number');
+        // let divClass = $("div[data-slick-index='"+number+"']");
+        // if(divClass.attr('class') === 'slick-slide slick-current slick-active'){
+        //     console.log('activo')
+        // }else{
+        //     console.log('in-activos')
+
+        //     for (var i = 0; i <= 2; i++) {
+        //         console.log('for '+i);
+        //         let divClassFor = $("div[data-slick-index='"+i+"']");
+        //         console.log(divClassFor.attr('class'))
+        //         if(divClassFor.attr('class') === 'slick-slide slick-current slick-active'){
+        //             divClassFor.removeClass( "slick-current" );
+        //             divClassFor.removeClass( "slick-active" );
+        //             divClassFor.attr('aria-hidden','true');
+        //         }
+        //     }
+
+        //     divClass.addClass( "slick-current" );
+        //     divClass.addClass( "slick-active" );
+        //     divClass.attr('aria-hidden','false');
+        // }
+    });
+
+    function moveCircle(){
+        console.log('mover')
+        let divsle = $(".c").find('.item').length;
+        for (var i = 0; i <= divsle; i++) {
+            let div = $(".c").find('.item')[i];
+            let cla = $(div).attr('class');
+
+            if(cla === 'item wi-100 select'){
+                $("span[number='"+i+"']").css('font-size','25px');
+                $("span[number='"+i+"']").css('color','#ffff');
+            }
+            else{
+                $("span[number='"+i+"']").css('font-size','20px');
+                $("span[number='"+i+"']").css('color','#dadada');
+            }
+        }
+    }
+
+    $('.slick-carousel').slick({
+      infinite: false,
+      dots: true,
+      vertical:true,
+      verticalSwiping:true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: $('.top-arrow'),
+      nextArrow: $('.bottom-arrow')
+    });
+
     // 1.0  Carousel Clientes
     $('.testimonial_carousel').owlCarousel({
         loop:true,
